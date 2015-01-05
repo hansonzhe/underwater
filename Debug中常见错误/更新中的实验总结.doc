@@ -1,0 +1,44 @@
+﻿开始
+//
+//====basic class for UPMac====
+//
+static class UPMacClass : public TclClass {
+public:
+        UPMacClass() : TclClass("Mac/UnderwaterMac/UPMac") {printf("upmactestgenerating");}
+        TclObject* create(int, const char*const*) {
+          printf("shibushizhelichucuo?");
+          return (new UPMac());
+
+        }
+} class_upmac;
+
+这个函数是MAC函数的入口，在tcl中，
+set opt(chan)                   Channel/UnderwaterChannel
+set opt(prop)                   Propagation/UnderwaterPropagation
+set opt(netif)                  Phy/UnderwaterPhy
+set opt(mac)                    Mac/UnderwaterMac/UPMac
+set opt(ifq)                    Queue/DropTail/PriQueue
+其中opt（mac）后面的参数就应该跟自己的设置相对应
+
+
+
+关于uwvb的问题：
+
+
+关于MAC层只能收到一个agent发来的包的问题：
+如果MAC层恰好只能收到一个agent发来的包，那么很有可能是在Queue这个类出现了问题。在ns2.3/queue/Queue.cc这个文件中的定义。
+MAC层的recv(Packet* p,Handler* h)借口中，Handler传过来的指针指向的就是QueueHandler类的对象，最终执行的是Queue类中的状态转换函数。此处简述下Queue类发包的工作原理：当发送一个包后，发包函数会被阻塞掉，直到状态更新。状态转换后，Queue会判断是否还有包要发送，如果有，则继续发，没有则停止，等待下次发送。因此，MAC层应该在把包接受完成后，调用该Handler。
+
+如果Queue层没有问题，则应该按照agent->ll->ARP->Queue->MAC的顺序Debug，注意虚函数的不同实现。
+
+
+In underwaterchannel.cc 
+double UnderwaterChannel::distCST_ =1200.0;
+
+
+浮点数例外的解决办法：
+常见情况：
+1，表达式中除0.有可能是在packet在senddown时没有添加智能指针，导致在传播层中UnderwaterPropagation::Pr出现错误，出现除0；
+2，
+ VectorbasedforwardAgent::ConsiderNew(Packet*) ()
+在tcl中，节点的位置坐标如果是0，0，0可能出现错误

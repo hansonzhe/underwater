@@ -1,0 +1,15 @@
+在../tcl/lib/ns-default.tcl中，有如下几行：
+# Initialize the SharedMedia interface with parameters to make
+# it work like the 914MHz Lucent WaveLAN DSSS radio interface
+Phy/WirelessPhy set CPThresh_ 10.0
+Phy/WirelessPhy set CSThresh_ 1.559e-11    ;#550m
+Phy/WirelessPhy set RXThresh_ 3.652e-10    ;#250m
+Phy/WirelessPhy set bandwidth_ 2e6            ;#2Mbps
+Phy/WirelessPhy set Pt_ 0.28183815            ;#传输功率 tran rate
+Phy/WirelessPhy set freq_ 914e+6
+Phy/WirelessPhy set L_ 1.0 
+默认载波侦听距离为550米，无线节点覆盖范围250米，带宽2Mbps
+附上几个常用的RXThresh对应的距离
+7.214e-4    100m
+8.5872e-4  40m
+别忘了载波侦听距离要大于2倍无线节点覆盖范围

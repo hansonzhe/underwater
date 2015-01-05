@@ -1,0 +1,2090 @@
+the start time is 0.001
++++++++AFTER ANNOUNCE++++++++++++++
+starting Simulation...
+num_nodes is set 5
+upmac:Add a packet in the buffer: node 3 at 4.520440 
+upmac:Add a packet in the buffer: node 4 at 4.620249 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 20.605934 
+upmac:StartRecvAnn: node 0 at 20.618734 
+upmac:StartRecvAnn: node 3 at 20.631094 
+upmac:StartRecvAnn: node 2 at 20.645400 
+upmac:StartRecvAnn: node 4 at 20.649965 
+upmac:Add a packet in the buffer: node 2 at 33.439928 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 41.123985 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 41.128785 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 41.141146 
+upmac:StartRecvAnn: node 1 at 41.141585 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 41.155452 
+underwater phy node 2: overlappd transmission 41.155452 and 41.163452
+upmac:StartRecvAnn: node 2 at 41.158252 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 41.160016 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 41.163946 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 41.166307 
+upmac:StartRecvAnn: node 4 at 41.171585 
+upmac:StartRecvAnn: node 2 at 41.177279 
+upmac:StartRecvAnn: node 0 at 41.184919 
+upmac:StartRecvAnn: node 3 at 41.191585 
+upmac:StartRecvAnn: node 1 at 41.194919 
+upmac:StartRecvAnn: node 0 at 41.202816 
+upmac:StartRecvAnn: node 1 at 41.204048 
+upmac:StartRecvAnn: node 2 at 41.210890 
+upmac:StartRecvAnn: node 3 at 41.222816 
+upmac:StartSENDREQ: node 3 at 41.249146 
+UnderwaterPhy node(3):mac forget to change the status at time 41.249146
+upmac:StartSENDREQ: node 2 at 41.263452 
+UnderwaterPhy node(2):mac forget to change the status at time 41.263452
+upmac:StartSENDREQ: node 4 at 41.268016 
+UnderwaterPhy node(4):mac forget to change the status at time 41.268016
+upmac:StartRecvReq: node 0 at 41.271946 
+upmac:StartRecvReq: node 1 at 41.274307 
+upmac:StartRecvReq: node 2 at 41.285279 
+upmac:StartRecvReq: node 0 at 41.292919 
+upmac:StartRecvReq: node 3 at 41.299585 
+upmac:StartRecvReq: node 1 at 41.302919 
+upmac:StartRecvReq: node 0 at 41.310816 
+upmac:StartRecvReq: node 1 at 41.312048 
+upmac:StartRecvReq: node 2 at 41.318890 
+upmac:StartRecvReq: node 3 at 41.330816 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 61.642037 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 61.646837 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 61.659198 
+upmac:StartRecvAnn: node 1 at 61.659637 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 61.673504 
+underwater phy node 2: overlappd transmission 61.673504 and 61.681504
+upmac:StartRecvAnn: node 2 at 61.676304 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 61.678068 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 61.681998 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 61.684359 
+upmac:StartRecvAnn: node 4 at 61.689637 
+upmac:StartRecvAnn: node 2 at 61.695331 
+upmac:StartRecvAnn: node 0 at 61.702971 
+upmac:StartRecvAnn: node 3 at 61.709637 
+upmac:StartRecvAnn: node 1 at 61.712971 
+upmac:StartRecvAnn: node 0 at 61.720868 
+upmac:StartRecvAnn: node 1 at 61.722099 
+upmac:StartRecvAnn: node 2 at 61.728942 
+upmac:StartRecvAnn: node 3 at 61.740868 
+upmac:StartSENDREQ: node 3 at 61.767198 
+UnderwaterPhy node(3):mac forget to change the status at time 61.767198
+upmac:StartSENDREQ: node 2 at 61.781504 
+UnderwaterPhy node(2):mac forget to change the status at time 61.781504
+upmac:StartSENDREQ: node 4 at 61.786068 
+UnderwaterPhy node(4):mac forget to change the status at time 61.786068
+upmac:StartRecvReq: node 0 at 61.789998 
+upmac:StartRecvReq: node 1 at 61.792359 
+upmac:StartRecvReq: node 2 at 61.803331 
+upmac:StartRecvReq: node 0 at 61.810971 
+upmac:StartRecvReq: node 3 at 61.817637 
+upmac:StartRecvReq: node 1 at 61.820971 
+upmac:StartRecvReq: node 0 at 61.828868 
+upmac:StartRecvReq: node 1 at 61.830099 
+upmac:StartRecvReq: node 2 at 61.836942 
+upmac:StartRecvReq: node 3 at 61.848868 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 82.160089 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 82.164889 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 82.177250 
+upmac:StartRecvAnn: node 1 at 82.177689 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 82.191556 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 82.196120 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 82.200050 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 82.202410 
+upmac:StartRecvAnn: node 4 at 82.207689 
+upmac:StartRecvAnn: node 2 at 82.213383 
+upmac:StartRecvAnn: node 0 at 82.221022 
+upmac:StartRecvAnn: node 3 at 82.227689 
+upmac:StartRecvAnn: node 1 at 82.231022 
+upmac:StartRecvAnn: node 0 at 82.238920 
+upmac:StartRecvAnn: node 1 at 82.240151 
+upmac:StartRecvAnn: node 2 at 82.246994 
+upmac:StartRecvAnn: node 3 at 82.258920 
+upmac:StartSENDREQ: node 3 at 82.285250 
+UnderwaterPhy node(3):mac forget to change the status at time 82.285250
+upmac:StartSENDREQ: node 2 at 82.299556 
+UnderwaterPhy node(2):mac forget to change the status at time 82.299556
+upmac:StartSENDREQ: node 4 at 82.304120 
+UnderwaterPhy node(4):mac forget to change the status at time 82.304120
+upmac:StartRecvReq: node 0 at 82.308050 
+upmac:StartRecvReq: node 1 at 82.310410 
+upmac:StartRecvReq: node 2 at 82.321383 
+upmac:StartRecvReq: node 0 at 82.329022 
+upmac:StartRecvReq: node 3 at 82.335689 
+upmac:StartRecvReq: node 1 at 82.339022 
+upmac:StartRecvReq: node 0 at 82.346920 
+upmac:StartRecvReq: node 1 at 82.348151 
+upmac:StartRecvReq: node 2 at 82.354994 
+upmac:StartRecvReq: node 3 at 82.366920 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 102.678141 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 102.682941 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 102.695301 
+upmac:StartRecvAnn: node 1 at 102.695741 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 102.709607 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 102.714172 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 102.718101 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 102.720462 
+upmac:StartRecvAnn: node 4 at 102.725741 
+upmac:StartRecvAnn: node 2 at 102.731435 
+upmac:StartRecvAnn: node 0 at 102.739074 
+upmac:StartRecvAnn: node 3 at 102.745741 
+upmac:StartRecvAnn: node 1 at 102.749074 
+upmac:StartRecvAnn: node 0 at 102.756972 
+upmac:StartRecvAnn: node 1 at 102.758203 
+upmac:StartRecvAnn: node 2 at 102.765046 
+upmac:StartRecvAnn: node 3 at 102.776972 
+upmac:StartSENDREQ: node 3 at 102.803301 
+UnderwaterPhy node(3):mac forget to change the status at time 102.803301
+upmac:StartSENDREQ: node 2 at 102.817607 
+UnderwaterPhy node(2):mac forget to change the status at time 102.817607
+upmac:StartSENDREQ: node 4 at 102.822172 
+UnderwaterPhy node(4):mac forget to change the status at time 102.822172
+upmac:StartRecvReq: node 0 at 102.826101 
+upmac:StartRecvReq: node 1 at 102.828462 
+upmac:StartRecvReq: node 2 at 102.839435 
+upmac:StartRecvReq: node 0 at 102.847074 
+upmac:StartRecvReq: node 3 at 102.853741 
+upmac:StartRecvReq: node 1 at 102.857074 
+upmac:StartRecvReq: node 0 at 102.864972 
+upmac:StartRecvReq: node 1 at 102.866203 
+upmac:StartRecvReq: node 2 at 102.873046 
+upmac:StartRecvReq: node 3 at 102.884972 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 123.196193 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 123.200993 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 123.213353 
+upmac:StartRecvAnn: node 1 at 123.213793 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 123.227659 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 123.232224 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 123.236153 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 123.238514 
+upmac:StartRecvAnn: node 4 at 123.243793 
+upmac:StartRecvAnn: node 2 at 123.249487 
+upmac:StartRecvAnn: node 0 at 123.257126 
+upmac:StartRecvAnn: node 3 at 123.263793 
+upmac:StartRecvAnn: node 1 at 123.267126 
+upmac:StartRecvAnn: node 0 at 123.275024 
+upmac:StartRecvAnn: node 1 at 123.276255 
+upmac:StartRecvAnn: node 2 at 123.283098 
+upmac:StartRecvAnn: node 3 at 123.295024 
+upmac:StartSENDREQ: node 3 at 123.321353 
+UnderwaterPhy node(3):mac forget to change the status at time 123.321353
+upmac:StartSENDREQ: node 2 at 123.335659 
+UnderwaterPhy node(2):mac forget to change the status at time 123.335659
+upmac:StartSENDREQ: node 4 at 123.340224 
+UnderwaterPhy node(4):mac forget to change the status at time 123.340224
+upmac:StartRecvReq: node 0 at 123.344153 
+upmac:StartRecvReq: node 1 at 123.346514 
+upmac:StartRecvReq: node 2 at 123.357487 
+upmac:StartRecvReq: node 0 at 123.365126 
+upmac:StartRecvReq: node 3 at 123.371793 
+upmac:StartRecvReq: node 1 at 123.375126 
+upmac:StartRecvReq: node 0 at 123.383024 
+upmac:StartRecvReq: node 1 at 123.384255 
+upmac:StartRecvReq: node 2 at 123.391098 
+upmac:StartRecvReq: node 3 at 123.403024 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 143.714244 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 143.719044 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 143.731405 
+upmac:StartRecvAnn: node 1 at 143.731844 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 143.745711 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 143.750275 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 143.754205 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 143.756566 
+upmac:StartRecvAnn: node 4 at 143.761844 
+upmac:StartRecvAnn: node 2 at 143.767538 
+upmac:StartRecvAnn: node 0 at 143.775178 
+upmac:StartRecvAnn: node 3 at 143.781844 
+upmac:StartRecvAnn: node 1 at 143.785178 
+upmac:StartRecvAnn: node 0 at 143.793075 
+upmac:StartRecvAnn: node 1 at 143.794307 
+upmac:StartRecvAnn: node 2 at 143.801149 
+upmac:StartRecvAnn: node 3 at 143.813075 
+upmac:StartSENDREQ: node 3 at 143.839405 
+UnderwaterPhy node(3):mac forget to change the status at time 143.839405
+upmac:StartSENDREQ: node 2 at 143.853711 
+UnderwaterPhy node(2):mac forget to change the status at time 143.853711
+upmac:StartSENDREQ: node 4 at 143.858275 
+UnderwaterPhy node(4):mac forget to change the status at time 143.858275
+upmac:StartRecvReq: node 0 at 143.862205 
+upmac:StartRecvReq: node 1 at 143.864566 
+upmac:StartRecvReq: node 2 at 143.875538 
+upmac:StartRecvReq: node 0 at 143.883178 
+upmac:StartRecvReq: node 3 at 143.889844 
+upmac:StartRecvReq: node 1 at 143.893178 
+upmac:StartRecvReq: node 0 at 143.901075 
+upmac:StartRecvReq: node 1 at 143.902307 
+upmac:StartRecvReq: node 2 at 143.909149 
+upmac:StartRecvReq: node 3 at 143.921075 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 164.232296 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 164.237096 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 164.249457 
+upmac:StartRecvAnn: node 1 at 164.249896 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 164.263763 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 164.268327 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 164.272257 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 164.274618 
+upmac:StartRecvAnn: node 4 at 164.279896 
+upmac:StartRecvAnn: node 2 at 164.285590 
+upmac:StartRecvAnn: node 0 at 164.293230 
+upmac:StartRecvAnn: node 3 at 164.299896 
+upmac:StartRecvAnn: node 1 at 164.303230 
+upmac:StartRecvAnn: node 0 at 164.311127 
+upmac:StartRecvAnn: node 1 at 164.312358 
+upmac:StartRecvAnn: node 2 at 164.319201 
+upmac:StartRecvAnn: node 3 at 164.331127 
+upmac:StartSENDREQ: node 3 at 164.357457 
+UnderwaterPhy node(3):mac forget to change the status at time 164.357457
+upmac:StartSENDREQ: node 2 at 164.371763 
+UnderwaterPhy node(2):mac forget to change the status at time 164.371763
+upmac:StartSENDREQ: node 4 at 164.376327 
+UnderwaterPhy node(4):mac forget to change the status at time 164.376327
+upmac:StartRecvReq: node 0 at 164.380257 
+upmac:StartRecvReq: node 1 at 164.382618 
+upmac:StartRecvReq: node 2 at 164.393590 
+upmac:StartRecvReq: node 0 at 164.401230 
+upmac:StartRecvReq: node 3 at 164.407896 
+upmac:StartRecvReq: node 1 at 164.411230 
+upmac:StartRecvReq: node 0 at 164.419127 
+upmac:StartRecvReq: node 1 at 164.420358 
+upmac:StartRecvReq: node 2 at 164.427201 
+upmac:StartRecvReq: node 3 at 164.439127 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 184.750348 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 184.755148 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 184.767509 
+upmac:StartRecvAnn: node 1 at 184.767948 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 184.781815 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 184.786379 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 184.790309 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 184.792669 
+upmac:StartRecvAnn: node 4 at 184.797948 
+upmac:StartRecvAnn: node 2 at 184.803642 
+upmac:StartRecvAnn: node 0 at 184.811281 
+upmac:StartRecvAnn: node 3 at 184.817948 
+upmac:StartRecvAnn: node 1 at 184.821281 
+upmac:StartRecvAnn: node 0 at 184.829179 
+upmac:StartRecvAnn: node 1 at 184.830410 
+upmac:StartRecvAnn: node 2 at 184.837253 
+upmac:StartRecvAnn: node 3 at 184.849179 
+upmac:StartSENDREQ: node 3 at 184.875509 
+UnderwaterPhy node(3):mac forget to change the status at time 184.875509
+upmac:StartSENDREQ: node 2 at 184.889815 
+UnderwaterPhy node(2):mac forget to change the status at time 184.889815
+upmac:StartSENDREQ: node 4 at 184.894379 
+UnderwaterPhy node(4):mac forget to change the status at time 184.894379
+upmac:StartRecvReq: node 0 at 184.898309 
+upmac:StartRecvReq: node 1 at 184.900669 
+upmac:StartRecvReq: node 2 at 184.911642 
+upmac:StartRecvReq: node 0 at 184.919281 
+upmac:StartRecvReq: node 3 at 184.925948 
+upmac:StartRecvReq: node 1 at 184.929281 
+upmac:StartRecvReq: node 0 at 184.937179 
+upmac:StartRecvReq: node 1 at 184.938410 
+upmac:StartRecvReq: node 2 at 184.945253 
+upmac:StartRecvReq: node 3 at 184.957179 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 205.268400 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 205.273200 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 205.285560 
+upmac:StartRecvAnn: node 1 at 205.286000 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 205.299866 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 205.304431 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 205.308360 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 205.310721 
+upmac:StartRecvAnn: node 4 at 205.316000 
+upmac:StartRecvAnn: node 2 at 205.321694 
+upmac:StartRecvAnn: node 0 at 205.329333 
+upmac:StartRecvAnn: node 3 at 205.336000 
+upmac:StartRecvAnn: node 1 at 205.339333 
+upmac:StartRecvAnn: node 0 at 205.347231 
+upmac:StartRecvAnn: node 1 at 205.348462 
+upmac:StartRecvAnn: node 2 at 205.355305 
+upmac:StartRecvAnn: node 3 at 205.367231 
+upmac:StartSENDREQ: node 3 at 205.393560 
+UnderwaterPhy node(3):mac forget to change the status at time 205.393560
+upmac:StartSENDREQ: node 2 at 205.407866 
+UnderwaterPhy node(2):mac forget to change the status at time 205.407866
+upmac:StartSENDREQ: node 4 at 205.412431 
+UnderwaterPhy node(4):mac forget to change the status at time 205.412431
+upmac:StartRecvReq: node 0 at 205.416360 
+upmac:StartRecvReq: node 1 at 205.418721 
+upmac:StartRecvReq: node 2 at 205.429694 
+upmac:StartRecvReq: node 0 at 205.437333 
+upmac:StartRecvReq: node 3 at 205.444000 
+upmac:StartRecvReq: node 1 at 205.447333 
+upmac:StartRecvReq: node 0 at 205.455231 
+upmac:StartRecvReq: node 1 at 205.456462 
+upmac:StartRecvReq: node 2 at 205.463305 
+upmac:StartRecvReq: node 3 at 205.475231 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 225.786452 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 225.791252 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 225.803612 
+upmac:StartRecvAnn: node 1 at 225.804052 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 225.817918 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 225.822483 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 225.826412 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 225.828773 
+upmac:StartRecvAnn: node 4 at 225.834052 
+upmac:StartRecvAnn: node 2 at 225.839746 
+upmac:StartRecvAnn: node 0 at 225.847385 
+upmac:StartRecvAnn: node 3 at 225.854052 
+upmac:StartRecvAnn: node 1 at 225.857385 
+upmac:StartRecvAnn: node 0 at 225.865283 
+upmac:StartRecvAnn: node 1 at 225.866514 
+upmac:StartRecvAnn: node 2 at 225.873357 
+upmac:StartRecvAnn: node 3 at 225.885283 
+upmac:StartSENDREQ: node 3 at 225.911612 
+UnderwaterPhy node(3):mac forget to change the status at time 225.911612
+upmac:StartSENDREQ: node 2 at 225.925918 
+UnderwaterPhy node(2):mac forget to change the status at time 225.925918
+upmac:StartSENDREQ: node 4 at 225.930483 
+UnderwaterPhy node(4):mac forget to change the status at time 225.930483
+upmac:StartRecvReq: node 0 at 225.934412 
+upmac:StartRecvReq: node 1 at 225.936773 
+upmac:StartRecvReq: node 2 at 225.947746 
+upmac:StartRecvReq: node 0 at 225.955385 
+upmac:StartRecvReq: node 3 at 225.962052 
+upmac:StartRecvReq: node 1 at 225.965385 
+upmac:StartRecvReq: node 0 at 225.973283 
+upmac:StartRecvReq: node 1 at 225.974514 
+upmac:StartRecvReq: node 2 at 225.981357 
+upmac:StartRecvReq: node 3 at 225.993283 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 246.304503 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 246.309303 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 246.321664 
+upmac:StartRecvAnn: node 1 at 246.322103 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 246.335970 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 246.340534 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 246.344464 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 246.346825 
+upmac:StartRecvAnn: node 4 at 246.352103 
+upmac:StartRecvAnn: node 2 at 246.357797 
+upmac:StartRecvAnn: node 0 at 246.365437 
+upmac:StartRecvAnn: node 3 at 246.372103 
+upmac:StartRecvAnn: node 1 at 246.375437 
+upmac:StartRecvAnn: node 0 at 246.383334 
+upmac:StartRecvAnn: node 1 at 246.384566 
+upmac:StartRecvAnn: node 2 at 246.391408 
+upmac:StartRecvAnn: node 3 at 246.403334 
+upmac:StartSENDREQ: node 3 at 246.429664 
+UnderwaterPhy node(3):mac forget to change the status at time 246.429664
+upmac:StartSENDREQ: node 2 at 246.443970 
+UnderwaterPhy node(2):mac forget to change the status at time 246.443970
+upmac:StartSENDREQ: node 4 at 246.448534 
+UnderwaterPhy node(4):mac forget to change the status at time 246.448534
+upmac:StartRecvReq: node 0 at 246.452464 
+upmac:StartRecvReq: node 1 at 246.454825 
+upmac:StartRecvReq: node 2 at 246.465797 
+upmac:StartRecvReq: node 0 at 246.473437 
+upmac:StartRecvReq: node 3 at 246.480103 
+upmac:StartRecvReq: node 1 at 246.483437 
+upmac:StartRecvReq: node 0 at 246.491334 
+upmac:StartRecvReq: node 1 at 246.492566 
+upmac:StartRecvReq: node 2 at 246.499408 
+upmac:StartRecvReq: node 3 at 246.511334 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 266.822555 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 266.827355 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 266.839716 
+upmac:StartRecvAnn: node 1 at 266.840155 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 266.854022 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 266.858586 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 266.862516 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 266.864877 
+upmac:StartRecvAnn: node 4 at 266.870155 
+upmac:StartRecvAnn: node 2 at 266.875849 
+upmac:StartRecvAnn: node 0 at 266.883489 
+upmac:StartRecvAnn: node 3 at 266.890155 
+upmac:StartRecvAnn: node 1 at 266.893489 
+upmac:StartRecvAnn: node 0 at 266.901386 
+upmac:StartRecvAnn: node 1 at 266.902617 
+upmac:StartRecvAnn: node 2 at 266.909460 
+upmac:StartRecvAnn: node 3 at 266.921386 
+upmac:StartSENDREQ: node 3 at 266.947716 
+UnderwaterPhy node(3):mac forget to change the status at time 266.947716
+upmac:StartSENDREQ: node 2 at 266.962022 
+UnderwaterPhy node(2):mac forget to change the status at time 266.962022
+upmac:StartSENDREQ: node 4 at 266.966586 
+UnderwaterPhy node(4):mac forget to change the status at time 266.966586
+upmac:StartRecvReq: node 0 at 266.970516 
+upmac:StartRecvReq: node 1 at 266.972877 
+upmac:StartRecvReq: node 2 at 266.983849 
+upmac:StartRecvReq: node 0 at 266.991489 
+upmac:StartRecvReq: node 3 at 266.998155 
+upmac:StartRecvReq: node 1 at 267.001489 
+upmac:StartRecvReq: node 0 at 267.009386 
+upmac:StartRecvReq: node 1 at 267.010617 
+upmac:StartRecvReq: node 2 at 267.017460 
+upmac:StartRecvReq: node 3 at 267.029386 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 287.340607 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 287.345407 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 287.357768 
+upmac:StartRecvAnn: node 1 at 287.358207 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 287.372074 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 287.376638 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 287.380568 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 287.382928 
+upmac:StartRecvAnn: node 4 at 287.388207 
+upmac:StartRecvAnn: node 2 at 287.393901 
+upmac:StartRecvAnn: node 0 at 287.401540 
+upmac:StartRecvAnn: node 3 at 287.408207 
+upmac:StartRecvAnn: node 1 at 287.411540 
+upmac:StartRecvAnn: node 0 at 287.419438 
+upmac:StartRecvAnn: node 1 at 287.420669 
+upmac:StartRecvAnn: node 2 at 287.427512 
+upmac:StartRecvAnn: node 3 at 287.439438 
+upmac:StartSENDREQ: node 3 at 287.465768 
+UnderwaterPhy node(3):mac forget to change the status at time 287.465768
+upmac:StartSENDREQ: node 2 at 287.480074 
+UnderwaterPhy node(2):mac forget to change the status at time 287.480074
+upmac:StartSENDREQ: node 4 at 287.484638 
+UnderwaterPhy node(4):mac forget to change the status at time 287.484638
+upmac:StartRecvReq: node 0 at 287.488568 
+upmac:StartRecvReq: node 1 at 287.490928 
+upmac:StartRecvReq: node 2 at 287.501901 
+upmac:StartRecvReq: node 0 at 287.509540 
+upmac:StartRecvReq: node 3 at 287.516207 
+upmac:StartRecvReq: node 1 at 287.519540 
+upmac:StartRecvReq: node 0 at 287.527438 
+upmac:StartRecvReq: node 1 at 287.528669 
+upmac:StartRecvReq: node 2 at 287.535512 
+upmac:StartRecvReq: node 3 at 287.547438 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 307.858659 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 307.863459 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 307.875819 
+upmac:StartRecvAnn: node 1 at 307.876259 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 307.890125 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 307.894690 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 307.898619 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 307.900980 
+upmac:StartRecvAnn: node 4 at 307.906259 
+upmac:StartRecvAnn: node 2 at 307.911953 
+upmac:StartRecvAnn: node 0 at 307.919592 
+upmac:StartRecvAnn: node 3 at 307.926259 
+upmac:StartRecvAnn: node 1 at 307.929592 
+upmac:StartRecvAnn: node 0 at 307.937490 
+upmac:StartRecvAnn: node 1 at 307.938721 
+upmac:StartRecvAnn: node 2 at 307.945564 
+upmac:StartRecvAnn: node 3 at 307.957490 
+upmac:StartSENDREQ: node 3 at 307.983819 
+UnderwaterPhy node(3):mac forget to change the status at time 307.983819
+upmac:StartSENDREQ: node 2 at 307.998125 
+UnderwaterPhy node(2):mac forget to change the status at time 307.998125
+upmac:StartSENDREQ: node 4 at 308.002690 
+UnderwaterPhy node(4):mac forget to change the status at time 308.002690
+upmac:StartRecvReq: node 0 at 308.006619 
+upmac:StartRecvReq: node 1 at 308.008980 
+upmac:StartRecvReq: node 2 at 308.019953 
+upmac:StartRecvReq: node 0 at 308.027592 
+upmac:StartRecvReq: node 3 at 308.034259 
+upmac:StartRecvReq: node 1 at 308.037592 
+upmac:StartRecvReq: node 0 at 308.045490 
+upmac:StartRecvReq: node 1 at 308.046721 
+upmac:StartRecvReq: node 2 at 308.053564 
+upmac:StartRecvReq: node 3 at 308.065490 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 328.376711 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 328.381511 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 328.393871 
+upmac:StartRecvAnn: node 1 at 328.394311 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 328.408177 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 328.412742 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 328.416671 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 328.419032 
+upmac:StartRecvAnn: node 4 at 328.424311 
+upmac:StartRecvAnn: node 2 at 328.430005 
+upmac:StartRecvAnn: node 0 at 328.437644 
+upmac:StartRecvAnn: node 3 at 328.444311 
+upmac:StartRecvAnn: node 1 at 328.447644 
+upmac:StartRecvAnn: node 0 at 328.455542 
+upmac:StartRecvAnn: node 1 at 328.456773 
+upmac:StartRecvAnn: node 2 at 328.463616 
+upmac:StartRecvAnn: node 3 at 328.475542 
+upmac:StartSENDREQ: node 3 at 328.501871 
+UnderwaterPhy node(3):mac forget to change the status at time 328.501871
+upmac:StartSENDREQ: node 2 at 328.516177 
+UnderwaterPhy node(2):mac forget to change the status at time 328.516177
+upmac:StartSENDREQ: node 4 at 328.520742 
+UnderwaterPhy node(4):mac forget to change the status at time 328.520742
+upmac:StartRecvReq: node 0 at 328.524671 
+upmac:StartRecvReq: node 1 at 328.527032 
+upmac:StartRecvReq: node 2 at 328.538005 
+upmac:StartRecvReq: node 0 at 328.545644 
+upmac:StartRecvReq: node 3 at 328.552311 
+upmac:StartRecvReq: node 1 at 328.555644 
+upmac:StartRecvReq: node 0 at 328.563542 
+upmac:StartRecvReq: node 1 at 328.564773 
+upmac:StartRecvReq: node 2 at 328.571616 
+upmac:StartRecvReq: node 3 at 328.583542 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 348.894762 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 348.899562 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 348.911923 
+upmac:StartRecvAnn: node 1 at 348.912362 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 348.926229 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 348.930793 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 348.934723 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 348.937084 
+upmac:StartRecvAnn: node 4 at 348.942362 
+upmac:StartRecvAnn: node 2 at 348.948056 
+upmac:StartRecvAnn: node 0 at 348.955696 
+upmac:StartRecvAnn: node 3 at 348.962362 
+upmac:StartRecvAnn: node 1 at 348.965696 
+upmac:StartRecvAnn: node 0 at 348.973593 
+upmac:StartRecvAnn: node 1 at 348.974825 
+upmac:StartRecvAnn: node 2 at 348.981667 
+upmac:StartRecvAnn: node 3 at 348.993593 
+upmac:StartSENDREQ: node 3 at 349.019923 
+UnderwaterPhy node(3):mac forget to change the status at time 349.019923
+upmac:StartSENDREQ: node 2 at 349.034229 
+UnderwaterPhy node(2):mac forget to change the status at time 349.034229
+upmac:StartSENDREQ: node 4 at 349.038793 
+UnderwaterPhy node(4):mac forget to change the status at time 349.038793
+upmac:StartRecvReq: node 0 at 349.042723 
+upmac:StartRecvReq: node 1 at 349.045084 
+upmac:StartRecvReq: node 2 at 349.056056 
+upmac:StartRecvReq: node 0 at 349.063696 
+upmac:StartRecvReq: node 3 at 349.070362 
+upmac:StartRecvReq: node 1 at 349.073696 
+upmac:StartRecvReq: node 0 at 349.081593 
+upmac:StartRecvReq: node 1 at 349.082825 
+upmac:StartRecvReq: node 2 at 349.089667 
+upmac:StartRecvReq: node 3 at 349.101593 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 369.412814 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 369.417614 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 369.429975 
+upmac:StartRecvAnn: node 1 at 369.430414 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 369.444281 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 369.448845 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 369.452775 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 369.455136 
+upmac:StartRecvAnn: node 4 at 369.460414 
+upmac:StartRecvAnn: node 2 at 369.466108 
+upmac:StartRecvAnn: node 0 at 369.473748 
+upmac:StartRecvAnn: node 3 at 369.480414 
+upmac:StartRecvAnn: node 1 at 369.483748 
+upmac:StartRecvAnn: node 0 at 369.491645 
+upmac:StartRecvAnn: node 1 at 369.492876 
+upmac:StartRecvAnn: node 2 at 369.499719 
+upmac:StartRecvAnn: node 3 at 369.511645 
+upmac:StartSENDREQ: node 3 at 369.537975 
+UnderwaterPhy node(3):mac forget to change the status at time 369.537975
+upmac:StartSENDREQ: node 2 at 369.552281 
+UnderwaterPhy node(2):mac forget to change the status at time 369.552281
+upmac:StartSENDREQ: node 4 at 369.556845 
+UnderwaterPhy node(4):mac forget to change the status at time 369.556845
+upmac:StartRecvReq: node 0 at 369.560775 
+upmac:StartRecvReq: node 1 at 369.563136 
+upmac:StartRecvReq: node 2 at 369.574108 
+upmac:StartRecvReq: node 0 at 369.581748 
+upmac:StartRecvReq: node 3 at 369.588414 
+upmac:StartRecvReq: node 1 at 369.591748 
+upmac:StartRecvReq: node 0 at 369.599645 
+upmac:StartRecvReq: node 1 at 369.600876 
+upmac:StartRecvReq: node 2 at 369.607719 
+upmac:StartRecvReq: node 3 at 369.619645 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 389.930866 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 389.935666 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 389.948027 
+upmac:StartRecvAnn: node 1 at 389.948466 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 389.962333 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 389.966897 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 389.970827 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 389.973187 
+upmac:StartRecvAnn: node 4 at 389.978466 
+upmac:StartRecvAnn: node 2 at 389.984160 
+upmac:StartRecvAnn: node 0 at 389.991799 
+upmac:StartRecvAnn: node 3 at 389.998466 
+upmac:StartRecvAnn: node 1 at 390.001799 
+upmac:StartRecvAnn: node 0 at 390.009697 
+upmac:StartRecvAnn: node 1 at 390.010928 
+upmac:StartRecvAnn: node 2 at 390.017771 
+upmac:StartRecvAnn: node 3 at 390.029697 
+upmac:StartSENDREQ: node 3 at 390.056027 
+UnderwaterPhy node(3):mac forget to change the status at time 390.056027
+upmac:StartSENDREQ: node 2 at 390.070333 
+UnderwaterPhy node(2):mac forget to change the status at time 390.070333
+upmac:StartSENDREQ: node 4 at 390.074897 
+UnderwaterPhy node(4):mac forget to change the status at time 390.074897
+upmac:StartRecvReq: node 0 at 390.078827 
+upmac:StartRecvReq: node 1 at 390.081187 
+upmac:StartRecvReq: node 2 at 390.092160 
+upmac:StartRecvReq: node 0 at 390.099799 
+upmac:StartRecvReq: node 3 at 390.106466 
+upmac:StartRecvReq: node 1 at 390.109799 
+upmac:StartRecvReq: node 0 at 390.117697 
+upmac:StartRecvReq: node 1 at 390.118928 
+upmac:StartRecvReq: node 2 at 390.125771 
+upmac:StartRecvReq: node 3 at 390.137697 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 410.448918 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 410.453718 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 410.466078 
+upmac:StartRecvAnn: node 1 at 410.466518 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 410.480384 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 410.484949 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 410.488878 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 410.491239 
+upmac:StartRecvAnn: node 4 at 410.496518 
+upmac:StartRecvAnn: node 2 at 410.502212 
+upmac:StartRecvAnn: node 0 at 410.509851 
+upmac:StartRecvAnn: node 3 at 410.516518 
+upmac:StartRecvAnn: node 1 at 410.519851 
+upmac:StartRecvAnn: node 0 at 410.527749 
+upmac:StartRecvAnn: node 1 at 410.528980 
+upmac:StartRecvAnn: node 2 at 410.535823 
+upmac:StartRecvAnn: node 3 at 410.547749 
+upmac:StartSENDREQ: node 3 at 410.574078 
+UnderwaterPhy node(3):mac forget to change the status at time 410.574078
+upmac:StartSENDREQ: node 2 at 410.588384 
+UnderwaterPhy node(2):mac forget to change the status at time 410.588384
+upmac:StartSENDREQ: node 4 at 410.592949 
+UnderwaterPhy node(4):mac forget to change the status at time 410.592949
+upmac:StartRecvReq: node 0 at 410.596878 
+upmac:StartRecvReq: node 1 at 410.599239 
+upmac:StartRecvReq: node 2 at 410.610212 
+upmac:StartRecvReq: node 0 at 410.617851 
+upmac:StartRecvReq: node 3 at 410.624518 
+upmac:StartRecvReq: node 1 at 410.627851 
+upmac:StartRecvReq: node 0 at 410.635749 
+upmac:StartRecvReq: node 1 at 410.636980 
+upmac:StartRecvReq: node 2 at 410.643823 
+upmac:StartRecvReq: node 3 at 410.655749 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 430.966970 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 430.971770 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 430.984130 
+upmac:StartRecvAnn: node 1 at 430.984570 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 430.998436 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 431.003001 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 431.006930 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 431.009291 
+upmac:StartRecvAnn: node 4 at 431.014570 
+upmac:StartRecvAnn: node 2 at 431.020264 
+upmac:StartRecvAnn: node 0 at 431.027903 
+upmac:StartRecvAnn: node 3 at 431.034570 
+upmac:StartRecvAnn: node 1 at 431.037903 
+upmac:StartRecvAnn: node 0 at 431.045801 
+upmac:StartRecvAnn: node 1 at 431.047032 
+upmac:StartRecvAnn: node 2 at 431.053875 
+upmac:StartRecvAnn: node 3 at 431.065801 
+upmac:StartSENDREQ: node 3 at 431.092130 
+UnderwaterPhy node(3):mac forget to change the status at time 431.092130
+upmac:StartSENDREQ: node 2 at 431.106436 
+UnderwaterPhy node(2):mac forget to change the status at time 431.106436
+upmac:StartSENDREQ: node 4 at 431.111001 
+UnderwaterPhy node(4):mac forget to change the status at time 431.111001
+upmac:StartRecvReq: node 0 at 431.114930 
+upmac:StartRecvReq: node 1 at 431.117291 
+upmac:StartRecvReq: node 2 at 431.128264 
+upmac:StartRecvReq: node 0 at 431.135903 
+upmac:StartRecvReq: node 3 at 431.142570 
+upmac:StartRecvReq: node 1 at 431.145903 
+upmac:StartRecvReq: node 0 at 431.153801 
+upmac:StartRecvReq: node 1 at 431.155032 
+upmac:StartRecvReq: node 2 at 431.161875 
+upmac:StartRecvReq: node 3 at 431.173801 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 451.485021 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 451.489821 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 451.502182 
+upmac:StartRecvAnn: node 1 at 451.502621 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 451.516488 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 451.521052 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 451.524982 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 451.527343 
+upmac:StartRecvAnn: node 4 at 451.532621 
+upmac:StartRecvAnn: node 2 at 451.538315 
+upmac:StartRecvAnn: node 0 at 451.545955 
+upmac:StartRecvAnn: node 3 at 451.552621 
+upmac:StartRecvAnn: node 1 at 451.555955 
+upmac:StartRecvAnn: node 0 at 451.563852 
+upmac:StartRecvAnn: node 1 at 451.565084 
+upmac:StartRecvAnn: node 2 at 451.571926 
+upmac:StartRecvAnn: node 3 at 451.583852 
+upmac:StartSENDREQ: node 3 at 451.610182 
+UnderwaterPhy node(3):mac forget to change the status at time 451.610182
+upmac:StartSENDREQ: node 2 at 451.624488 
+UnderwaterPhy node(2):mac forget to change the status at time 451.624488
+upmac:StartSENDREQ: node 4 at 451.629052 
+UnderwaterPhy node(4):mac forget to change the status at time 451.629052
+upmac:StartRecvReq: node 0 at 451.632982 
+upmac:StartRecvReq: node 1 at 451.635343 
+upmac:StartRecvReq: node 2 at 451.646315 
+upmac:StartRecvReq: node 0 at 451.653955 
+upmac:StartRecvReq: node 3 at 451.660621 
+upmac:StartRecvReq: node 1 at 451.663955 
+upmac:StartRecvReq: node 0 at 451.671852 
+upmac:StartRecvReq: node 1 at 451.673084 
+upmac:StartRecvReq: node 2 at 451.679926 
+upmac:StartRecvReq: node 3 at 451.691852 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 472.003073 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 472.007873 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 472.020234 
+upmac:StartRecvAnn: node 1 at 472.020673 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 472.034540 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 472.039104 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 472.043034 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 472.045395 
+upmac:StartRecvAnn: node 4 at 472.050673 
+upmac:StartRecvAnn: node 2 at 472.056367 
+upmac:StartRecvAnn: node 0 at 472.064007 
+upmac:StartRecvAnn: node 3 at 472.070673 
+upmac:StartRecvAnn: node 1 at 472.074007 
+upmac:StartRecvAnn: node 0 at 472.081904 
+upmac:StartRecvAnn: node 1 at 472.083135 
+upmac:StartRecvAnn: node 2 at 472.089978 
+upmac:StartRecvAnn: node 3 at 472.101904 
+upmac:StartSENDREQ: node 3 at 472.128234 
+UnderwaterPhy node(3):mac forget to change the status at time 472.128234
+upmac:StartSENDREQ: node 2 at 472.142540 
+UnderwaterPhy node(2):mac forget to change the status at time 472.142540
+upmac:StartSENDREQ: node 4 at 472.147104 
+UnderwaterPhy node(4):mac forget to change the status at time 472.147104
+upmac:StartRecvReq: node 0 at 472.151034 
+upmac:StartRecvReq: node 1 at 472.153395 
+upmac:StartRecvReq: node 2 at 472.164367 
+upmac:StartRecvReq: node 0 at 472.172007 
+upmac:StartRecvReq: node 3 at 472.178673 
+upmac:StartRecvReq: node 1 at 472.182007 
+upmac:StartRecvReq: node 0 at 472.189904 
+upmac:StartRecvReq: node 1 at 472.191135 
+upmac:StartRecvReq: node 2 at 472.197978 
+upmac:StartRecvReq: node 3 at 472.209904 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 492.521125 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 492.525925 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 492.538286 
+upmac:StartRecvAnn: node 1 at 492.538725 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 492.552592 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 492.557156 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 492.561086 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 492.563446 
+upmac:StartRecvAnn: node 4 at 492.568725 
+upmac:StartRecvAnn: node 2 at 492.574419 
+upmac:StartRecvAnn: node 0 at 492.582058 
+upmac:StartRecvAnn: node 3 at 492.588725 
+upmac:StartRecvAnn: node 1 at 492.592058 
+upmac:StartRecvAnn: node 0 at 492.599956 
+upmac:StartRecvAnn: node 1 at 492.601187 
+upmac:StartRecvAnn: node 2 at 492.608030 
+upmac:StartRecvAnn: node 3 at 492.619956 
+upmac:StartSENDREQ: node 3 at 492.646286 
+UnderwaterPhy node(3):mac forget to change the status at time 492.646286
+upmac:StartSENDREQ: node 2 at 492.660592 
+UnderwaterPhy node(2):mac forget to change the status at time 492.660592
+upmac:StartSENDREQ: node 4 at 492.665156 
+UnderwaterPhy node(4):mac forget to change the status at time 492.665156
+upmac:StartRecvReq: node 0 at 492.669086 
+upmac:StartRecvReq: node 1 at 492.671446 
+upmac:StartRecvReq: node 2 at 492.682419 
+upmac:StartRecvReq: node 0 at 492.690058 
+upmac:StartRecvReq: node 3 at 492.696725 
+upmac:StartRecvReq: node 1 at 492.700058 
+upmac:StartRecvReq: node 0 at 492.707956 
+upmac:StartRecvReq: node 1 at 492.709187 
+upmac:StartRecvReq: node 2 at 492.716030 
+upmac:StartRecvReq: node 3 at 492.727956 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 513.039177 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 513.043977 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 513.056337 
+upmac:StartRecvAnn: node 1 at 513.056777 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 513.070643 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 513.075208 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 513.079137 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 513.081498 
+upmac:StartRecvAnn: node 4 at 513.086777 
+upmac:StartRecvAnn: node 2 at 513.092471 
+upmac:StartRecvAnn: node 0 at 513.100110 
+upmac:StartRecvAnn: node 3 at 513.106777 
+upmac:StartRecvAnn: node 1 at 513.110110 
+upmac:StartRecvAnn: node 0 at 513.118008 
+upmac:StartRecvAnn: node 1 at 513.119239 
+upmac:StartRecvAnn: node 2 at 513.126082 
+upmac:StartRecvAnn: node 3 at 513.138008 
+upmac:StartSENDREQ: node 3 at 513.164337 
+UnderwaterPhy node(3):mac forget to change the status at time 513.164337
+upmac:StartSENDREQ: node 2 at 513.178643 
+UnderwaterPhy node(2):mac forget to change the status at time 513.178643
+upmac:StartSENDREQ: node 4 at 513.183208 
+UnderwaterPhy node(4):mac forget to change the status at time 513.183208
+upmac:StartRecvReq: node 0 at 513.187137 
+upmac:StartRecvReq: node 1 at 513.189498 
+upmac:StartRecvReq: node 2 at 513.200471 
+upmac:StartRecvReq: node 0 at 513.208110 
+upmac:StartRecvReq: node 3 at 513.214777 
+upmac:StartRecvReq: node 1 at 513.218110 
+upmac:StartRecvReq: node 0 at 513.226008 
+upmac:StartRecvReq: node 1 at 513.227239 
+upmac:StartRecvReq: node 2 at 513.234082 
+upmac:StartRecvReq: node 3 at 513.246008 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 533.557229 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 533.562029 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 533.574389 
+upmac:StartRecvAnn: node 1 at 533.574829 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 533.588695 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 533.593260 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 533.597189 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 533.599550 
+upmac:StartRecvAnn: node 4 at 533.604829 
+upmac:StartRecvAnn: node 2 at 533.610523 
+upmac:StartRecvAnn: node 0 at 533.618162 
+upmac:StartRecvAnn: node 3 at 533.624829 
+upmac:StartRecvAnn: node 1 at 533.628162 
+upmac:StartRecvAnn: node 0 at 533.636060 
+upmac:StartRecvAnn: node 1 at 533.637291 
+upmac:StartRecvAnn: node 2 at 533.644134 
+upmac:StartRecvAnn: node 3 at 533.656060 
+upmac:StartSENDREQ: node 3 at 533.682389 
+UnderwaterPhy node(3):mac forget to change the status at time 533.682389
+upmac:StartSENDREQ: node 2 at 533.696695 
+UnderwaterPhy node(2):mac forget to change the status at time 533.696695
+upmac:StartSENDREQ: node 4 at 533.701260 
+UnderwaterPhy node(4):mac forget to change the status at time 533.701260
+upmac:StartRecvReq: node 0 at 533.705189 
+upmac:StartRecvReq: node 1 at 533.707550 
+upmac:StartRecvReq: node 2 at 533.718523 
+upmac:StartRecvReq: node 0 at 533.726162 
+upmac:StartRecvReq: node 3 at 533.732829 
+upmac:StartRecvReq: node 1 at 533.736162 
+upmac:StartRecvReq: node 0 at 533.744060 
+upmac:StartRecvReq: node 1 at 533.745291 
+upmac:StartRecvReq: node 2 at 533.752134 
+upmac:StartRecvReq: node 3 at 533.764060 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 554.075280 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 554.080080 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 554.092441 
+upmac:StartRecvAnn: node 1 at 554.092880 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 554.106747 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 554.111311 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 554.115241 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 554.117602 
+upmac:StartRecvAnn: node 4 at 554.122880 
+upmac:StartRecvAnn: node 2 at 554.128574 
+upmac:StartRecvAnn: node 0 at 554.136214 
+upmac:StartRecvAnn: node 3 at 554.142880 
+upmac:StartRecvAnn: node 1 at 554.146214 
+upmac:StartRecvAnn: node 0 at 554.154111 
+upmac:StartRecvAnn: node 1 at 554.155343 
+upmac:StartRecvAnn: node 2 at 554.162185 
+upmac:StartRecvAnn: node 3 at 554.174111 
+upmac:StartSENDREQ: node 3 at 554.200441 
+UnderwaterPhy node(3):mac forget to change the status at time 554.200441
+upmac:StartSENDREQ: node 2 at 554.214747 
+UnderwaterPhy node(2):mac forget to change the status at time 554.214747
+upmac:StartSENDREQ: node 4 at 554.219311 
+UnderwaterPhy node(4):mac forget to change the status at time 554.219311
+upmac:StartRecvReq: node 0 at 554.223241 
+upmac:StartRecvReq: node 1 at 554.225602 
+upmac:StartRecvReq: node 2 at 554.236574 
+upmac:StartRecvReq: node 0 at 554.244214 
+upmac:StartRecvReq: node 3 at 554.250880 
+upmac:StartRecvReq: node 1 at 554.254214 
+upmac:StartRecvReq: node 0 at 554.262111 
+upmac:StartRecvReq: node 1 at 554.263343 
+upmac:StartRecvReq: node 2 at 554.270185 
+upmac:StartRecvReq: node 3 at 554.282111 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 574.593332 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 574.598132 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 574.610493 
+upmac:StartRecvAnn: node 1 at 574.610932 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 574.624799 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 574.629363 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 574.633293 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 574.635654 
+upmac:StartRecvAnn: node 4 at 574.640932 
+upmac:StartRecvAnn: node 2 at 574.646626 
+upmac:StartRecvAnn: node 0 at 574.654266 
+upmac:StartRecvAnn: node 3 at 574.660932 
+upmac:StartRecvAnn: node 1 at 574.664266 
+upmac:StartRecvAnn: node 0 at 574.672163 
+upmac:StartRecvAnn: node 1 at 574.673394 
+upmac:StartRecvAnn: node 2 at 574.680237 
+upmac:StartRecvAnn: node 3 at 574.692163 
+upmac:StartSENDREQ: node 3 at 574.718493 
+UnderwaterPhy node(3):mac forget to change the status at time 574.718493
+upmac:StartSENDREQ: node 2 at 574.732799 
+UnderwaterPhy node(2):mac forget to change the status at time 574.732799
+upmac:StartSENDREQ: node 4 at 574.737363 
+UnderwaterPhy node(4):mac forget to change the status at time 574.737363
+upmac:StartRecvReq: node 0 at 574.741293 
+upmac:StartRecvReq: node 1 at 574.743654 
+upmac:StartRecvReq: node 2 at 574.754626 
+upmac:StartRecvReq: node 0 at 574.762266 
+upmac:StartRecvReq: node 3 at 574.768932 
+upmac:StartRecvReq: node 1 at 574.772266 
+upmac:StartRecvReq: node 0 at 574.780163 
+upmac:StartRecvReq: node 1 at 574.781394 
+upmac:StartRecvReq: node 2 at 574.788237 
+upmac:StartRecvReq: node 3 at 574.800163 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 595.111384 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 595.116184 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 595.128545 
+upmac:StartRecvAnn: node 1 at 595.128984 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 595.142851 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 595.147415 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 595.151345 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 595.153705 
+upmac:StartRecvAnn: node 4 at 595.158984 
+upmac:StartRecvAnn: node 2 at 595.164678 
+upmac:StartRecvAnn: node 0 at 595.172317 
+upmac:StartRecvAnn: node 3 at 595.178984 
+upmac:StartRecvAnn: node 1 at 595.182317 
+upmac:StartRecvAnn: node 0 at 595.190215 
+upmac:StartRecvAnn: node 1 at 595.191446 
+upmac:StartRecvAnn: node 2 at 595.198289 
+upmac:StartRecvAnn: node 3 at 595.210215 
+upmac:StartSENDREQ: node 3 at 595.236545 
+UnderwaterPhy node(3):mac forget to change the status at time 595.236545
+upmac:StartSENDREQ: node 2 at 595.250851 
+UnderwaterPhy node(2):mac forget to change the status at time 595.250851
+upmac:StartSENDREQ: node 4 at 595.255415 
+UnderwaterPhy node(4):mac forget to change the status at time 595.255415
+upmac:StartRecvReq: node 0 at 595.259345 
+upmac:StartRecvReq: node 1 at 595.261705 
+upmac:StartRecvReq: node 2 at 595.272678 
+upmac:StartRecvReq: node 0 at 595.280317 
+upmac:StartRecvReq: node 3 at 595.286984 
+upmac:StartRecvReq: node 1 at 595.290317 
+upmac:StartRecvReq: node 0 at 595.298215 
+upmac:StartRecvReq: node 1 at 595.299446 
+upmac:StartRecvReq: node 2 at 595.306289 
+upmac:StartRecvReq: node 3 at 595.318215 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 615.629436 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 615.634236 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 615.646596 
+upmac:StartRecvAnn: node 1 at 615.647036 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 615.660902 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 615.665467 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 615.669396 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 615.671757 
+upmac:StartRecvAnn: node 4 at 615.677036 
+upmac:StartRecvAnn: node 2 at 615.682730 
+upmac:StartRecvAnn: node 0 at 615.690369 
+upmac:StartRecvAnn: node 3 at 615.697036 
+upmac:StartRecvAnn: node 1 at 615.700369 
+upmac:StartRecvAnn: node 0 at 615.708267 
+upmac:StartRecvAnn: node 1 at 615.709498 
+upmac:StartRecvAnn: node 2 at 615.716341 
+upmac:StartRecvAnn: node 3 at 615.728267 
+upmac:StartSENDREQ: node 3 at 615.754596 
+UnderwaterPhy node(3):mac forget to change the status at time 615.754596
+upmac:StartSENDREQ: node 2 at 615.768902 
+UnderwaterPhy node(2):mac forget to change the status at time 615.768902
+upmac:StartSENDREQ: node 4 at 615.773467 
+UnderwaterPhy node(4):mac forget to change the status at time 615.773467
+upmac:StartRecvReq: node 0 at 615.777396 
+upmac:StartRecvReq: node 1 at 615.779757 
+upmac:StartRecvReq: node 2 at 615.790730 
+upmac:StartRecvReq: node 0 at 615.798369 
+upmac:StartRecvReq: node 3 at 615.805036 
+upmac:StartRecvReq: node 1 at 615.808369 
+upmac:StartRecvReq: node 0 at 615.816267 
+upmac:StartRecvReq: node 1 at 615.817498 
+upmac:StartRecvReq: node 2 at 615.824341 
+upmac:StartRecvReq: node 3 at 615.836267 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 636.147488 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 636.152288 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 636.164648 
+upmac:StartRecvAnn: node 1 at 636.165088 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 636.178954 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 636.183519 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 636.187448 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 636.189809 
+upmac:StartRecvAnn: node 4 at 636.195088 
+upmac:StartRecvAnn: node 2 at 636.200782 
+upmac:StartRecvAnn: node 0 at 636.208421 
+upmac:StartRecvAnn: node 3 at 636.215088 
+upmac:StartRecvAnn: node 1 at 636.218421 
+upmac:StartRecvAnn: node 0 at 636.226319 
+upmac:StartRecvAnn: node 1 at 636.227550 
+upmac:StartRecvAnn: node 2 at 636.234393 
+upmac:StartRecvAnn: node 3 at 636.246319 
+upmac:StartSENDREQ: node 3 at 636.272648 
+UnderwaterPhy node(3):mac forget to change the status at time 636.272648
+upmac:StartSENDREQ: node 2 at 636.286954 
+UnderwaterPhy node(2):mac forget to change the status at time 636.286954
+upmac:StartSENDREQ: node 4 at 636.291519 
+UnderwaterPhy node(4):mac forget to change the status at time 636.291519
+upmac:StartRecvReq: node 0 at 636.295448 
+upmac:StartRecvReq: node 1 at 636.297809 
+upmac:StartRecvReq: node 2 at 636.308782 
+upmac:StartRecvReq: node 0 at 636.316421 
+upmac:StartRecvReq: node 3 at 636.323088 
+upmac:StartRecvReq: node 1 at 636.326421 
+upmac:StartRecvReq: node 0 at 636.334319 
+upmac:StartRecvReq: node 1 at 636.335550 
+upmac:StartRecvReq: node 2 at 636.342393 
+upmac:StartRecvReq: node 3 at 636.354319 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 656.665539 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 656.670339 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 656.682700 
+upmac:StartRecvAnn: node 1 at 656.683139 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 656.697006 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 656.701570 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 656.705500 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 656.707861 
+upmac:StartRecvAnn: node 4 at 656.713139 
+upmac:StartRecvAnn: node 2 at 656.718833 
+upmac:StartRecvAnn: node 0 at 656.726473 
+upmac:StartRecvAnn: node 3 at 656.733139 
+upmac:StartRecvAnn: node 1 at 656.736473 
+upmac:StartRecvAnn: node 0 at 656.744370 
+upmac:StartRecvAnn: node 1 at 656.745602 
+upmac:StartRecvAnn: node 2 at 656.752444 
+upmac:StartRecvAnn: node 3 at 656.764370 
+upmac:StartSENDREQ: node 3 at 656.790700 
+UnderwaterPhy node(3):mac forget to change the status at time 656.790700
+upmac:StartSENDREQ: node 2 at 656.805006 
+UnderwaterPhy node(2):mac forget to change the status at time 656.805006
+upmac:StartSENDREQ: node 4 at 656.809570 
+UnderwaterPhy node(4):mac forget to change the status at time 656.809570
+upmac:StartRecvReq: node 0 at 656.813500 
+upmac:StartRecvReq: node 1 at 656.815861 
+upmac:StartRecvReq: node 2 at 656.826833 
+upmac:StartRecvReq: node 0 at 656.834473 
+upmac:StartRecvReq: node 3 at 656.841139 
+upmac:StartRecvReq: node 1 at 656.844473 
+upmac:StartRecvReq: node 0 at 656.852370 
+upmac:StartRecvReq: node 1 at 656.853602 
+upmac:StartRecvReq: node 2 at 656.860444 
+upmac:StartRecvReq: node 3 at 656.872370 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 677.183591 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 677.188391 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 677.200752 
+upmac:StartRecvAnn: node 1 at 677.201191 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 677.215058 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 677.219622 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 677.223552 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 677.225913 
+upmac:StartRecvAnn: node 4 at 677.231191 
+upmac:StartRecvAnn: node 2 at 677.236885 
+upmac:StartRecvAnn: node 0 at 677.244525 
+upmac:StartRecvAnn: node 3 at 677.251191 
+upmac:StartRecvAnn: node 1 at 677.254525 
+upmac:StartRecvAnn: node 0 at 677.262422 
+upmac:StartRecvAnn: node 1 at 677.263653 
+upmac:StartRecvAnn: node 2 at 677.270496 
+upmac:StartRecvAnn: node 3 at 677.282422 
+upmac:StartSENDREQ: node 3 at 677.308752 
+UnderwaterPhy node(3):mac forget to change the status at time 677.308752
+upmac:StartSENDREQ: node 2 at 677.323058 
+UnderwaterPhy node(2):mac forget to change the status at time 677.323058
+upmac:StartSENDREQ: node 4 at 677.327622 
+UnderwaterPhy node(4):mac forget to change the status at time 677.327622
+upmac:StartRecvReq: node 0 at 677.331552 
+upmac:StartRecvReq: node 1 at 677.333913 
+upmac:StartRecvReq: node 2 at 677.344885 
+upmac:StartRecvReq: node 0 at 677.352525 
+upmac:StartRecvReq: node 3 at 677.359191 
+upmac:StartRecvReq: node 1 at 677.362525 
+upmac:StartRecvReq: node 0 at 677.370422 
+upmac:StartRecvReq: node 1 at 677.371653 
+upmac:StartRecvReq: node 2 at 677.378496 
+upmac:StartRecvReq: node 3 at 677.390422 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 697.701643 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 697.706443 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 697.718804 
+upmac:StartRecvAnn: node 1 at 697.719243 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 697.733110 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 697.737674 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 697.741604 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 697.743964 
+upmac:StartRecvAnn: node 4 at 697.749243 
+upmac:StartRecvAnn: node 2 at 697.754937 
+upmac:StartRecvAnn: node 0 at 697.762576 
+upmac:StartRecvAnn: node 3 at 697.769243 
+upmac:StartRecvAnn: node 1 at 697.772576 
+upmac:StartRecvAnn: node 0 at 697.780474 
+upmac:StartRecvAnn: node 1 at 697.781705 
+upmac:StartRecvAnn: node 2 at 697.788548 
+upmac:StartRecvAnn: node 3 at 697.800474 
+upmac:StartSENDREQ: node 3 at 697.826804 
+UnderwaterPhy node(3):mac forget to change the status at time 697.826804
+upmac:StartSENDREQ: node 2 at 697.841110 
+UnderwaterPhy node(2):mac forget to change the status at time 697.841110
+upmac:StartSENDREQ: node 4 at 697.845674 
+UnderwaterPhy node(4):mac forget to change the status at time 697.845674
+upmac:StartRecvReq: node 0 at 697.849604 
+upmac:StartRecvReq: node 1 at 697.851964 
+upmac:StartRecvReq: node 2 at 697.862937 
+upmac:StartRecvReq: node 0 at 697.870576 
+upmac:StartRecvReq: node 3 at 697.877243 
+upmac:StartRecvReq: node 1 at 697.880576 
+upmac:StartRecvReq: node 0 at 697.888474 
+upmac:StartRecvReq: node 1 at 697.889705 
+upmac:StartRecvReq: node 2 at 697.896548 
+upmac:StartRecvReq: node 3 at 697.908474 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 718.219695 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 718.224495 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 718.236855 
+upmac:StartRecvAnn: node 1 at 718.237295 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 718.251161 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 718.255726 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 718.259655 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 718.262016 
+upmac:StartRecvAnn: node 4 at 718.267295 
+upmac:StartRecvAnn: node 2 at 718.272989 
+upmac:StartRecvAnn: node 0 at 718.280628 
+upmac:StartRecvAnn: node 3 at 718.287295 
+upmac:StartRecvAnn: node 1 at 718.290628 
+upmac:StartRecvAnn: node 0 at 718.298526 
+upmac:StartRecvAnn: node 1 at 718.299757 
+upmac:StartRecvAnn: node 2 at 718.306600 
+upmac:StartRecvAnn: node 3 at 718.318526 
+upmac:StartSENDREQ: node 3 at 718.344855 
+UnderwaterPhy node(3):mac forget to change the status at time 718.344855
+upmac:StartSENDREQ: node 2 at 718.359161 
+UnderwaterPhy node(2):mac forget to change the status at time 718.359161
+upmac:StartSENDREQ: node 4 at 718.363726 
+UnderwaterPhy node(4):mac forget to change the status at time 718.363726
+upmac:StartRecvReq: node 0 at 718.367655 
+upmac:StartRecvReq: node 1 at 718.370016 
+upmac:StartRecvReq: node 2 at 718.380989 
+upmac:StartRecvReq: node 0 at 718.388628 
+upmac:StartRecvReq: node 3 at 718.395295 
+upmac:StartRecvReq: node 1 at 718.398628 
+upmac:StartRecvReq: node 0 at 718.406526 
+upmac:StartRecvReq: node 1 at 718.407757 
+upmac:StartRecvReq: node 2 at 718.414600 
+upmac:StartRecvReq: node 3 at 718.426526 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 738.737747 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 738.742547 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 738.754907 
+upmac:StartRecvAnn: node 1 at 738.755347 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 738.769213 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 738.773778 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 738.777707 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 738.780068 
+upmac:StartRecvAnn: node 4 at 738.785347 
+upmac:StartRecvAnn: node 2 at 738.791041 
+upmac:StartRecvAnn: node 0 at 738.798680 
+upmac:StartRecvAnn: node 3 at 738.805347 
+upmac:StartRecvAnn: node 1 at 738.808680 
+upmac:StartRecvAnn: node 0 at 738.816578 
+upmac:StartRecvAnn: node 1 at 738.817809 
+upmac:StartRecvAnn: node 2 at 738.824652 
+upmac:StartRecvAnn: node 3 at 738.836578 
+upmac:StartSENDREQ: node 3 at 738.862907 
+UnderwaterPhy node(3):mac forget to change the status at time 738.862907
+upmac:StartSENDREQ: node 2 at 738.877213 
+UnderwaterPhy node(2):mac forget to change the status at time 738.877213
+upmac:StartSENDREQ: node 4 at 738.881778 
+UnderwaterPhy node(4):mac forget to change the status at time 738.881778
+upmac:StartRecvReq: node 0 at 738.885707 
+upmac:StartRecvReq: node 1 at 738.888068 
+upmac:StartRecvReq: node 2 at 738.899041 
+upmac:StartRecvReq: node 0 at 738.906680 
+upmac:StartRecvReq: node 3 at 738.913347 
+upmac:StartRecvReq: node 1 at 738.916680 
+upmac:StartRecvReq: node 0 at 738.924578 
+upmac:StartRecvReq: node 1 at 738.925809 
+upmac:StartRecvReq: node 2 at 738.932652 
+upmac:StartRecvReq: node 3 at 738.944578 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 759.255798 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 759.260598 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 759.272959 
+upmac:StartRecvAnn: node 1 at 759.273398 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 759.287265 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 759.291829 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 759.295759 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 759.298120 
+upmac:StartRecvAnn: node 4 at 759.303398 
+upmac:StartRecvAnn: node 2 at 759.309092 
+upmac:StartRecvAnn: node 0 at 759.316732 
+upmac:StartRecvAnn: node 3 at 759.323398 
+upmac:StartRecvAnn: node 1 at 759.326732 
+upmac:StartRecvAnn: node 0 at 759.334629 
+upmac:StartRecvAnn: node 1 at 759.335861 
+upmac:StartRecvAnn: node 2 at 759.342703 
+upmac:StartRecvAnn: node 3 at 759.354629 
+upmac:StartSENDREQ: node 3 at 759.380959 
+UnderwaterPhy node(3):mac forget to change the status at time 759.380959
+upmac:StartSENDREQ: node 2 at 759.395265 
+UnderwaterPhy node(2):mac forget to change the status at time 759.395265
+upmac:StartSENDREQ: node 4 at 759.399829 
+UnderwaterPhy node(4):mac forget to change the status at time 759.399829
+upmac:StartRecvReq: node 0 at 759.403759 
+upmac:StartRecvReq: node 1 at 759.406120 
+upmac:StartRecvReq: node 2 at 759.417092 
+upmac:StartRecvReq: node 0 at 759.424732 
+upmac:StartRecvReq: node 3 at 759.431398 
+upmac:StartRecvReq: node 1 at 759.434732 
+upmac:StartRecvReq: node 0 at 759.442629 
+upmac:StartRecvReq: node 1 at 759.443861 
+upmac:StartRecvReq: node 2 at 759.450703 
+upmac:StartRecvReq: node 3 at 759.462629 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 779.773850 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 779.778650 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 779.791011 
+upmac:StartRecvAnn: node 1 at 779.791450 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 779.805317 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 779.809881 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 779.813811 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 779.816172 
+upmac:StartRecvAnn: node 4 at 779.821450 
+upmac:StartRecvAnn: node 2 at 779.827144 
+upmac:StartRecvAnn: node 0 at 779.834784 
+upmac:StartRecvAnn: node 3 at 779.841450 
+upmac:StartRecvAnn: node 1 at 779.844784 
+upmac:StartRecvAnn: node 0 at 779.852681 
+upmac:StartRecvAnn: node 1 at 779.853912 
+upmac:StartRecvAnn: node 2 at 779.860755 
+upmac:StartRecvAnn: node 3 at 779.872681 
+upmac:StartSENDREQ: node 3 at 779.899011 
+UnderwaterPhy node(3):mac forget to change the status at time 779.899011
+upmac:StartSENDREQ: node 2 at 779.913317 
+UnderwaterPhy node(2):mac forget to change the status at time 779.913317
+upmac:StartSENDREQ: node 4 at 779.917881 
+UnderwaterPhy node(4):mac forget to change the status at time 779.917881
+upmac:StartRecvReq: node 0 at 779.921811 
+upmac:StartRecvReq: node 1 at 779.924172 
+upmac:StartRecvReq: node 2 at 779.935144 
+upmac:StartRecvReq: node 0 at 779.942784 
+upmac:StartRecvReq: node 3 at 779.949450 
+upmac:StartRecvReq: node 1 at 779.952784 
+upmac:StartRecvReq: node 0 at 779.960681 
+upmac:StartRecvReq: node 1 at 779.961912 
+upmac:StartRecvReq: node 2 at 779.968755 
+upmac:StartRecvReq: node 3 at 779.980681 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 800.291902 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 800.296702 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 800.309063 
+upmac:StartRecvAnn: node 1 at 800.309502 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 800.323369 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 800.327933 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 800.331863 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 800.334223 
+upmac:StartRecvAnn: node 4 at 800.339502 
+upmac:StartRecvAnn: node 2 at 800.345196 
+upmac:StartRecvAnn: node 0 at 800.352835 
+upmac:StartRecvAnn: node 3 at 800.359502 
+upmac:StartRecvAnn: node 1 at 800.362835 
+upmac:StartRecvAnn: node 0 at 800.370733 
+upmac:StartRecvAnn: node 1 at 800.371964 
+upmac:StartRecvAnn: node 2 at 800.378807 
+upmac:StartRecvAnn: node 3 at 800.390733 
+upmac:StartSENDREQ: node 3 at 800.417063 
+UnderwaterPhy node(3):mac forget to change the status at time 800.417063
+upmac:StartSENDREQ: node 2 at 800.431369 
+UnderwaterPhy node(2):mac forget to change the status at time 800.431369
+upmac:StartSENDREQ: node 4 at 800.435933 
+UnderwaterPhy node(4):mac forget to change the status at time 800.435933
+upmac:StartRecvReq: node 0 at 800.439863 
+upmac:StartRecvReq: node 1 at 800.442223 
+upmac:StartRecvReq: node 2 at 800.453196 
+upmac:StartRecvReq: node 0 at 800.460835 
+upmac:StartRecvReq: node 3 at 800.467502 
+upmac:StartRecvReq: node 1 at 800.470835 
+upmac:StartRecvReq: node 0 at 800.478733 
+upmac:StartRecvReq: node 1 at 800.479964 
+upmac:StartRecvReq: node 2 at 800.486807 
+upmac:StartRecvReq: node 3 at 800.498733 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 820.809954 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 820.814754 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 820.827114 
+upmac:StartRecvAnn: node 1 at 820.827554 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 820.841420 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 820.845985 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 820.849914 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 820.852275 
+upmac:StartRecvAnn: node 4 at 820.857554 
+upmac:StartRecvAnn: node 2 at 820.863248 
+upmac:StartRecvAnn: node 0 at 820.870887 
+upmac:StartRecvAnn: node 3 at 820.877554 
+upmac:StartRecvAnn: node 1 at 820.880887 
+upmac:StartRecvAnn: node 0 at 820.888785 
+upmac:StartRecvAnn: node 1 at 820.890016 
+upmac:StartRecvAnn: node 2 at 820.896859 
+upmac:StartRecvAnn: node 3 at 820.908785 
+upmac:StartSENDREQ: node 3 at 820.935114 
+UnderwaterPhy node(3):mac forget to change the status at time 820.935114
+upmac:StartSENDREQ: node 2 at 820.949420 
+UnderwaterPhy node(2):mac forget to change the status at time 820.949420
+upmac:StartSENDREQ: node 4 at 820.953985 
+UnderwaterPhy node(4):mac forget to change the status at time 820.953985
+upmac:StartRecvReq: node 0 at 820.957914 
+upmac:StartRecvReq: node 1 at 820.960275 
+upmac:StartRecvReq: node 2 at 820.971248 
+upmac:StartRecvReq: node 0 at 820.978887 
+upmac:StartRecvReq: node 3 at 820.985554 
+upmac:StartRecvReq: node 1 at 820.988887 
+upmac:StartRecvReq: node 0 at 820.996785 
+upmac:StartRecvReq: node 1 at 820.998016 
+upmac:StartRecvReq: node 2 at 821.004859 
+upmac:StartRecvReq: node 3 at 821.016785 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 841.328006 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 841.332806 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 841.345166 
+upmac:StartRecvAnn: node 1 at 841.345606 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 841.359472 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 841.364037 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 841.367966 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 841.370327 
+upmac:StartRecvAnn: node 4 at 841.375606 
+upmac:StartRecvAnn: node 2 at 841.381300 
+upmac:StartRecvAnn: node 0 at 841.388939 
+upmac:StartRecvAnn: node 3 at 841.395606 
+upmac:StartRecvAnn: node 1 at 841.398939 
+upmac:StartRecvAnn: node 0 at 841.406837 
+upmac:StartRecvAnn: node 1 at 841.408068 
+upmac:StartRecvAnn: node 2 at 841.414911 
+upmac:StartRecvAnn: node 3 at 841.426837 
+upmac:StartSENDREQ: node 3 at 841.453166 
+UnderwaterPhy node(3):mac forget to change the status at time 841.453166
+upmac:StartSENDREQ: node 2 at 841.467472 
+UnderwaterPhy node(2):mac forget to change the status at time 841.467472
+upmac:StartSENDREQ: node 4 at 841.472037 
+UnderwaterPhy node(4):mac forget to change the status at time 841.472037
+upmac:StartRecvReq: node 0 at 841.475966 
+upmac:StartRecvReq: node 1 at 841.478327 
+upmac:StartRecvReq: node 2 at 841.489300 
+upmac:StartRecvReq: node 0 at 841.496939 
+upmac:StartRecvReq: node 3 at 841.503606 
+upmac:StartRecvReq: node 1 at 841.506939 
+upmac:StartRecvReq: node 0 at 841.514837 
+upmac:StartRecvReq: node 1 at 841.516068 
+upmac:StartRecvReq: node 2 at 841.522911 
+upmac:StartRecvReq: node 3 at 841.534837 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 861.846057 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 861.850857 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 861.863218 
+upmac:StartRecvAnn: node 1 at 861.863657 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 861.877524 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 861.882088 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 861.886018 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 861.888379 
+upmac:StartRecvAnn: node 4 at 861.893657 
+upmac:StartRecvAnn: node 2 at 861.899351 
+upmac:StartRecvAnn: node 0 at 861.906991 
+upmac:StartRecvAnn: node 3 at 861.913657 
+upmac:StartRecvAnn: node 1 at 861.916991 
+upmac:StartRecvAnn: node 0 at 861.924888 
+upmac:StartRecvAnn: node 1 at 861.926120 
+upmac:StartRecvAnn: node 2 at 861.932962 
+upmac:StartRecvAnn: node 3 at 861.944888 
+upmac:StartSENDREQ: node 3 at 861.971218 
+UnderwaterPhy node(3):mac forget to change the status at time 861.971218
+upmac:StartSENDREQ: node 2 at 861.985524 
+UnderwaterPhy node(2):mac forget to change the status at time 861.985524
+upmac:StartSENDREQ: node 4 at 861.990088 
+UnderwaterPhy node(4):mac forget to change the status at time 861.990088
+upmac:StartRecvReq: node 0 at 861.994018 
+upmac:StartRecvReq: node 1 at 861.996379 
+upmac:StartRecvReq: node 2 at 862.007351 
+upmac:StartRecvReq: node 0 at 862.014991 
+upmac:StartRecvReq: node 3 at 862.021657 
+upmac:StartRecvReq: node 1 at 862.024991 
+upmac:StartRecvReq: node 0 at 862.032888 
+upmac:StartRecvReq: node 1 at 862.034120 
+upmac:StartRecvReq: node 2 at 862.040962 
+upmac:StartRecvReq: node 3 at 862.052888 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 882.364109 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 882.368909 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 882.381270 
+upmac:StartRecvAnn: node 1 at 882.381709 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 882.395576 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 882.400140 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 882.404070 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 882.406431 
+upmac:StartRecvAnn: node 4 at 882.411709 
+upmac:StartRecvAnn: node 2 at 882.417403 
+upmac:StartRecvAnn: node 0 at 882.425043 
+upmac:StartRecvAnn: node 3 at 882.431709 
+upmac:StartRecvAnn: node 1 at 882.435043 
+upmac:StartRecvAnn: node 0 at 882.442940 
+upmac:StartRecvAnn: node 1 at 882.444171 
+upmac:StartRecvAnn: node 2 at 882.451014 
+upmac:StartRecvAnn: node 3 at 882.462940 
+upmac:StartSENDREQ: node 3 at 882.489270 
+UnderwaterPhy node(3):mac forget to change the status at time 882.489270
+upmac:StartSENDREQ: node 2 at 882.503576 
+UnderwaterPhy node(2):mac forget to change the status at time 882.503576
+upmac:StartSENDREQ: node 4 at 882.508140 
+UnderwaterPhy node(4):mac forget to change the status at time 882.508140
+upmac:StartRecvReq: node 0 at 882.512070 
+upmac:StartRecvReq: node 1 at 882.514431 
+upmac:StartRecvReq: node 2 at 882.525403 
+upmac:StartRecvReq: node 0 at 882.533043 
+upmac:StartRecvReq: node 3 at 882.539709 
+upmac:StartRecvReq: node 1 at 882.543043 
+upmac:StartRecvReq: node 0 at 882.550940 
+upmac:StartRecvReq: node 1 at 882.552171 
+upmac:StartRecvReq: node 2 at 882.559014 
+upmac:StartRecvReq: node 3 at 882.570940 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 902.882161 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 902.886961 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 902.899322 
+upmac:StartRecvAnn: node 1 at 902.899761 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 902.913628 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 902.918192 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 902.922122 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 902.924482 
+upmac:StartRecvAnn: node 4 at 902.929761 
+upmac:StartRecvAnn: node 2 at 902.935455 
+upmac:StartRecvAnn: node 0 at 902.943094 
+upmac:StartRecvAnn: node 3 at 902.949761 
+upmac:StartRecvAnn: node 1 at 902.953094 
+upmac:StartRecvAnn: node 0 at 902.960992 
+upmac:StartRecvAnn: node 1 at 902.962223 
+upmac:StartRecvAnn: node 2 at 902.969066 
+upmac:StartRecvAnn: node 3 at 902.980992 
+upmac:StartSENDREQ: node 3 at 903.007322 
+UnderwaterPhy node(3):mac forget to change the status at time 903.007322
+upmac:StartSENDREQ: node 2 at 903.021628 
+UnderwaterPhy node(2):mac forget to change the status at time 903.021628
+upmac:StartSENDREQ: node 4 at 903.026192 
+UnderwaterPhy node(4):mac forget to change the status at time 903.026192
+upmac:StartRecvReq: node 0 at 903.030122 
+upmac:StartRecvReq: node 1 at 903.032482 
+upmac:StartRecvReq: node 2 at 903.043455 
+upmac:StartRecvReq: node 0 at 903.051094 
+upmac:StartRecvReq: node 3 at 903.057761 
+upmac:StartRecvReq: node 1 at 903.061094 
+upmac:StartRecvReq: node 0 at 903.068992 
+upmac:StartRecvReq: node 1 at 903.070223 
+upmac:StartRecvReq: node 2 at 903.077066 
+upmac:StartRecvReq: node 3 at 903.088992 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 923.400213 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 923.405013 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 923.417373 
+upmac:StartRecvAnn: node 1 at 923.417813 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 923.431679 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 923.436244 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 923.440173 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 923.442534 
+upmac:StartRecvAnn: node 4 at 923.447813 
+upmac:StartRecvAnn: node 2 at 923.453507 
+upmac:StartRecvAnn: node 0 at 923.461146 
+upmac:StartRecvAnn: node 3 at 923.467813 
+upmac:StartRecvAnn: node 1 at 923.471146 
+upmac:StartRecvAnn: node 0 at 923.479044 
+upmac:StartRecvAnn: node 1 at 923.480275 
+upmac:StartRecvAnn: node 2 at 923.487118 
+upmac:StartRecvAnn: node 3 at 923.499044 
+upmac:StartSENDREQ: node 3 at 923.525373 
+UnderwaterPhy node(3):mac forget to change the status at time 923.525373
+upmac:StartSENDREQ: node 2 at 923.539679 
+UnderwaterPhy node(2):mac forget to change the status at time 923.539679
+upmac:StartSENDREQ: node 4 at 923.544244 
+UnderwaterPhy node(4):mac forget to change the status at time 923.544244
+upmac:StartRecvReq: node 0 at 923.548173 
+upmac:StartRecvReq: node 1 at 923.550534 
+upmac:StartRecvReq: node 2 at 923.561507 
+upmac:StartRecvReq: node 0 at 923.569146 
+upmac:StartRecvReq: node 3 at 923.575813 
+upmac:StartRecvReq: node 1 at 923.579146 
+upmac:StartRecvReq: node 0 at 923.587044 
+upmac:StartRecvReq: node 1 at 923.588275 
+upmac:StartRecvReq: node 2 at 923.595118 
+upmac:StartRecvReq: node 3 at 923.607044 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 943.918265 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 943.923065 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 943.935425 
+upmac:StartRecvAnn: node 1 at 943.935865 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 943.949731 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 943.954296 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 943.958225 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 943.960586 
+upmac:StartRecvAnn: node 4 at 943.965865 
+upmac:StartRecvAnn: node 2 at 943.971559 
+upmac:StartRecvAnn: node 0 at 943.979198 
+upmac:StartRecvAnn: node 3 at 943.985865 
+upmac:StartRecvAnn: node 1 at 943.989198 
+upmac:StartRecvAnn: node 0 at 943.997096 
+upmac:StartRecvAnn: node 1 at 943.998327 
+upmac:StartRecvAnn: node 2 at 944.005170 
+upmac:StartRecvAnn: node 3 at 944.017096 
+upmac:StartSENDREQ: node 3 at 944.043425 
+UnderwaterPhy node(3):mac forget to change the status at time 944.043425
+upmac:StartSENDREQ: node 2 at 944.057731 
+UnderwaterPhy node(2):mac forget to change the status at time 944.057731
+upmac:StartSENDREQ: node 4 at 944.062296 
+UnderwaterPhy node(4):mac forget to change the status at time 944.062296
+upmac:StartRecvReq: node 0 at 944.066225 
+upmac:StartRecvReq: node 1 at 944.068586 
+upmac:StartRecvReq: node 2 at 944.079559 
+upmac:StartRecvReq: node 0 at 944.087198 
+upmac:StartRecvReq: node 3 at 944.093865 
+upmac:StartRecvReq: node 1 at 944.097198 
+upmac:StartRecvReq: node 0 at 944.105096 
+upmac:StartRecvReq: node 1 at 944.106327 
+upmac:StartRecvReq: node 2 at 944.113170 
+upmac:StartRecvReq: node 3 at 944.125096 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 964.436316 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 964.441116 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 964.453477 
+upmac:StartRecvAnn: node 1 at 964.453916 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 964.467783 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 964.472347 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 964.476277 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 964.478638 
+upmac:StartRecvAnn: node 4 at 964.483916 
+upmac:StartRecvAnn: node 2 at 964.489610 
+upmac:StartRecvAnn: node 0 at 964.497250 
+upmac:StartRecvAnn: node 3 at 964.503916 
+upmac:StartRecvAnn: node 1 at 964.507250 
+upmac:StartRecvAnn: node 0 at 964.515147 
+upmac:StartRecvAnn: node 1 at 964.516379 
+upmac:StartRecvAnn: node 2 at 964.523221 
+upmac:StartRecvAnn: node 3 at 964.535147 
+upmac:StartSENDREQ: node 3 at 964.561477 
+UnderwaterPhy node(3):mac forget to change the status at time 964.561477
+upmac:StartSENDREQ: node 2 at 964.575783 
+UnderwaterPhy node(2):mac forget to change the status at time 964.575783
+upmac:StartSENDREQ: node 4 at 964.580347 
+UnderwaterPhy node(4):mac forget to change the status at time 964.580347
+upmac:StartRecvReq: node 0 at 964.584277 
+upmac:StartRecvReq: node 1 at 964.586638 
+upmac:StartRecvReq: node 2 at 964.597610 
+upmac:StartRecvReq: node 0 at 964.605250 
+upmac:StartRecvReq: node 3 at 964.611916 
+upmac:StartRecvReq: node 1 at 964.615250 
+upmac:StartRecvReq: node 0 at 964.623147 
+upmac:StartRecvReq: node 1 at 964.624379 
+upmac:StartRecvReq: node 2 at 964.631221 
+upmac:StartRecvReq: node 3 at 964.643147 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 1 at 984.954368 
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 0 at 984.959168 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 3 at 984.971529 
+upmac:StartRecvAnn: node 1 at 984.971968 
+receive failure: SEND, SLEEP or NO-ENERGY
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 2 at 984.985835 
+receive failure: SEND, SLEEP or NO-ENERGY
+no node requseted! can't believe it!
+upmac:StartSENDANN: node 4 at 984.990399 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 0 at 984.994329 
+receive failure: SEND, SLEEP or NO-ENERGY
+upmac:StartRecvAnn: node 1 at 984.996690 
+upmac:StartRecvAnn: node 4 at 985.001968 
+upmac:StartRecvAnn: node 2 at 985.007662 
+upmac:StartRecvAnn: node 0 at 985.015302 
+upmac:StartRecvAnn: node 3 at 985.021968 
+upmac:StartRecvAnn: node 1 at 985.025302 
+upmac:StartRecvAnn: node 0 at 985.033199 
+upmac:StartRecvAnn: node 1 at 985.034430 
+upmac:StartRecvAnn: node 2 at 985.041273 
+upmac:StartRecvAnn: node 3 at 985.053199 
+upmac:StartSENDREQ: node 3 at 985.079529 
+UnderwaterPhy node(3):mac forget to change the status at time 985.079529
+upmac:StartSENDREQ: node 2 at 985.093835 
+UnderwaterPhy node(2):mac forget to change the status at time 985.093835
+upmac:StartSENDREQ: node 4 at 985.098399 
+UnderwaterPhy node(4):mac forget to change the status at time 985.098399
+upmac:StartRecvReNS EXISTING...
+q: node 0 at 985.102329 
+upmac:StartRecvReq: node 1 at 985.104690 
+upmac:StartRecvReq: node 2 at 985.115662 
+upmac:StartRecvReq: node 0 at 985.123302 
+upmac:StartRecvReq: node 3 at 985.129968 
+upmac:StartRecvReq: node 1 at 985.133302 
+upmac:StartRecvReq: node 0 at 985.141199 
+upmac:StartRecvReq: node 1 at 985.142430 
+upmac:StartRecvReq: node 2 at 985.149273 
+upmac:StartRecvReq: node 3 at 985.161199 
+SINK 0 : terminates (send 0, recv 0, cum_delay 0.000000)
+SINK 4 : terminates (send 52, recv 0, cum_delay 0.000000)
+SINK 1 : terminates (send 52, recv 0, cum_delay 0.000000)
+SINK 2 : terminates (send 47, recv 0, cum_delay 0.000000)
+SINK 3 : terminates (send 56, recv 0, cum_delay 0.000000)
+god: the energy consumped is 54.784347

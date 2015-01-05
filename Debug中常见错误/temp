@@ -1,0 +1,128 @@
+max_short_packet_transmissiontime=((1.0*short_packet_size_*encoding_efficiency_
+                      +PhyOverhead_)/bit_rate_)*(1+transmission_time_error_);
+
+max_large_packet_transmissiontime=((1.0*large_packet_size_*encoding_efficiency_
+                      +PhyOverhead_)/bit_rate_)*(1+transmission_time_error_);
+ large_packet_size_=30;
+ short_packet_size_=10;
+
+set opt(bit_rate)                     1.0e4
+set opt(encoding_efficiency)          1
+set opt(ND_window)                    1
+set opt(ACKND_window)                 1
+set opt(PhaseOne_window)              3
+set opt(PhaseTwo_window)              1
+set opt(PhaseTwo_interval)            0.5
+set opt(IntervalPhase2Phase3)         1 
+set opt(duration)                     0.1
+set opt(PhyOverhead)                  8 
+set opt(large_packet_size)            480 ;# 60 bytes
+set opt(short_packet_size)            40  ;# 5 bytes
+set opt(PhaseOne_cycle)               4 ;
+set opt(PhaseTwo_cycle)               2 ;
+set opt(PeriodInterval)               1 
+set opt(transmission_time_error)      0.0001; 
+
+"~/program/aqua_sim/ns-allinone-2.30/ns-2.30/common/packet.h" 690L, 18811C    
+
+sendup 是收到的包，senddown是要发的包
+RMac::ProcessRevPacket(Packet* pkt)
+UnderwaterMac::IncommingChannelProcess(Event* e)
+recv(DOWN): MAC是从类connect继承而来，应用层产生的数据通过网络层，然后在MAC层通过recv()函数把数据发送到物理层去。当一个节点的物理层接收到数据时，MAC层的recv()函数同样也被调用到了。所以recv()函数检查包头的direction段，如果direction是Down的话，说明数据包来自上层，然后这个packet就被送到发送函数sendMsg()被发送出去。
+
+Packet*
+RMac::GenerateSYN(){
+
+       Packet* pkt =Packet::alloc();
+       hdr_rmac* synh = HDR_RMAC(pkt);//增加rmac的包头
+       hdr_cmn*  cmh = HDR_CMN(pkt);//增加普通包头
+
+       cmh->size()=short_packet_size_;
+       cmh->next_hop()=MAC_BROADCAST;
+       cmh->direction()=hdr_cmn::DOWN;
+       cmh->addr_type()=NS_AF_ILINK;
+       cmh->ptype_=PT_RMAC;//设置普通包头的内容
+
+
+       synh->ptype=P_SYN;//设置mac头的内容
+       synh->pk_num = num_send;
+       synh->sender_addr= node_->address();
+
+       synh->duration=duration_;
+        num_send++;
+
+        printf("rmac GenerateSYN:node(%d) generates SYN packet at %f\n", synh->sender_addr,NOW);
+        return pkt;
+}
+
+
+
+
+
+
+
+
+
+在路由层广播一个包：
+        Packet *p = Packet::alloc();//产生一个包
+        struct hdr_cmn *ch = HDR_CMN(p);//增加普通包头
+        struct hdr_ip *ih = HDR_IP(p);//增加ip包头
+        ……………
+        ……………//设定其他内容
+        ih->daddr() = IP_BROADCAST;//目的地址设定为广播地址
+        ………………
+        Scheduler::instance().schedule(target_, p, t);//发送
+
+在mac层广播一个包：
+        Packet *p = Packet::alloc();
+//产生一个包
+        struct hdr_cmn *hdr = HDR_CMN(p);//增加普通包头
+
+        struct hdr_mac *mac = HDR_MAC(p); 
+//增加mac头部
+
+
+
+        ……………
+        ……………//设定其他内容
+
+
+        mac->macDA() = -1;//目的地址为广播地址
+
+        ………………
+        Scheduler::instance().schedule(downtarget_, p, t);//发送
+
+
+定义广播包结构体
+struct hdr_broadcastbase {
+  nsaddr_t  src;  //Source IP Address
+  
+  // Packet header access functions
+  static int offset_;
+  inline static int& offset() {return offset_; }
+  inline static hdr_broadcastbase* access(const Packet* p) {
+    return (hdr_broadcastbase*) p->access(offset_);
+  }
+};
+从Agent类继承广播应用类
+class BroadcastbaseAgent : public Agent {
+friend class SendTimer;
+public:
+  BroadcastbaseAgent();
+  int command(int argc, const char*const* argv);
+
+private:
+  void sendit();
+  inline double next_snd_time();
+  
+  SendTimer snd_timer_;  // SendTimer
+};
+
+class SendTimer : public TimerHandler {
+public:
+        SendTimer(BroadcastbaseAgent* t) : TimerHandler(), t_(t) {}
+        inline virtual void expire(Event*);
+protected:
+        BroadcastbaseAgent* t_;
+};
+自己定义的广播包结构放在自己定义的文件里面，后面需要修改NS源码里面的部分文件，比如：~/ns-2.*/common/packet.h, ~/ns-2.*/tcl/lib/ns-default.tcl, ns-packet.tcl，以及Makefile文件，再重新编译整个NS。

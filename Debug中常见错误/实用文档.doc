@@ -1,0 +1,246 @@
+﻿NS2是离散事件驱动的仿真机制，这一点文献到处都在讲但却始终没有讲到点子上。本文试图从几个NS2的基本类出发探究一下离散事件驱动究竟是怎么回事。
+
+首先是Scheduler，Handler和Event类的关系。
+在NS2中，事件(Event)是基本的调度单元，比如发送一个Packet、接收一个Packet等等。每个Event都有自己的处理工具，这个工具就是一个Handler类的对象handler_。Handler中仅包含一个函数，描述对Event的处理方法，即handle(Event *e)。
+
+给定一个事件，Scheduler将调用schedule(Handler* h, Event* e, double delay)函数，该函数设定Event的uid_，并设定用于处理该事件的Handler：e->handler_ = h，然后将该事件插入Scheduler维护的事件队列中。一般说来，处理事件的Handler都是产生该事件的实体本身，所以我们常常可以看到schedule函数在调用的时候*h用到this指针。
+
+NS2运行仿真时，Scheduler::run()函数不停地运行来处理队列中的事件，队列中的事件逐个dequeue()出来，随后运行Scheduler::dispatch(Event* p, double time)函数，将一个事件从队列中弹出来，调用它对应的Handler的handle()函数处理该它。
+
+这样就完成了一个事件从产生到排队到派出被处理的过程。
+
+接下来看一下TimerHandler的作用。
+计时器(Timer)是NS2仿真的关键手段，它用来设置一个未来的事件，在它到时后事件将被dispatch出来进行处理。Timer都是TimerHandler基类的派生类。TimerHandler与Scheduler交互的函数是sched(double delay)，它调用Scheduler::schedule(Handler* h, Event* e, double delay)插入一个delay时间后的事件进入队列，Handler设置为TimerHandler本身(用this)。
+
+delay时间到了后，Scheduler会从事件队列中dequeue出该事件，调用其处理函数，也就是TimerHandler::handle() 。而handle()除了做一些计时器的状态设定工作外，核心的处理由虚函数expire(Event* e)来做。由C++的动态特性不难理解，expire()将在各种自定义的Timer(也就是TimerHandler的派生类)中进行重写，实现各Timer的不同处理方法。
+
+看一个具体的例子
+以NIST Wimax模块中的DlTimer为例，该Timer用于触发一个下行帧的生成：
+class DlTimer : public TimerHandler {
+public:
+DlTimer(Mac802_16 *m) : TimerHandler() {m_=m;}
+
+void    expire(Event *e);
+private:
+Mac802_16 *m_;
+};
+在使用该Timer的MAC实体中，Mac802_16BS::init()函数中打开了该Timer：
+double stime = getFrameDuration () + Random::uniform(0, getFrameDuration ());
+dl_timer_->sched (stime);
+这个计时器被定时在stime后触发事件。那么Scheduler在到时后会做些什么呢？由上面知道，将会由schedule()函数会调用该事件的Handler处理该事件。这个事件的Handler是什么呢？查看sched()的代码可以溯源到一个内联函数：
+inline void _sched(double delay) {
+     (void)Scheduler::instance().schedule(this, &event_, delay);
+}
+该函数设定event_的Handler为this，也就是调用schedule()的对象，而这个对象回溯回去正是dl_timer_！于是我们知道，该定时器到时后将会调用dl_timer_的handle()函数做事情，而DlTimer又是直接继承了TimerHandler的handle()函数，而TimerHandler::handle()函数是靠虚函数expire(Event* e)做事的。在DlTimer继承TimerHandler时正好重写了expire函数：
+void DlTimer::expire (Event *e)
+{
+m_->start_dlsubframe();
+}
+现在事情就变得明朗了，dl_timer_到时后Scheduler触发了一个事件，这个事件引发的是MAC802_16类的start_dlsubframe()动作，这个函数正是“开始下行子帧”。这样就完成了用一个Timer完成一个调度工作的全过程。
+
+
+
+
+
+
+
+OTcl与C++，NS2是如何识别并调用执行协议的(转自百思)
+2007-12-14 11:15
+百思上的一篇文章，写的很不错。就贴过来了。。：
+经过一段时间的代码阅读和资料查阅，在这里我想试着讲明一个困扰大多数NS2 Beginner的问题：Otcl和C++的交互，我们写的新协议（假若有的话）是如何被NS2执行的。
+就简单的从我们现有的来自长庚大学的802.16的补丁说起。移植完16的补丁我们的NS2就可以执行MAC层协议为“Mac/802_16“的tcl脚本代码。但是这个补丁（wimax_v2.03）里面的代码全都是用C++编写的底层代码，在tcl脚本中设置MAC层协议为Mac/802_16，tcl解释器是如何正确的知道是执行我们的补丁呢？
+这是tcl脚本中设置16协议的地方：
+set val(chan)   Channel/WirelessChannel ;# channel type
+set val(prop)   Propagation/TwoRayGround   ;# radio-propagation model
+set val(netif) Phy/WirelessPhy           ;# network interface type
+set val(mac) Mac/802_16                   ;# MAC type
+          …………………………………………
+          …………………………………………
+$ns node-config -adhocRouting $val(rp) \
+            -llType $val(ll) \
+            -macType $val(mac) \
+          …………………………………………
+          …………………………………………
+
+我们打开ns-2.29/mac/mac-802_16下的mac-802_16.cc文件，翻看最后一段代码：
+static class Mac802_16Class : public TclClass
+{
+public:
+   //构造函数Mac802_16Class()将Otcl中的类名Mac/802_16作为参数传给其父类TclClass的构造函数；
+   //要注意，这里实际上是创建了两个类：Mac和802_16，并且802_16是Mac的子类；
+   Mac802_16Class() : TclClass("Mac/802_16") {}
+   //而create方法则创建一个要与Otcl类对应的C++类的对象实例，然后返回；
+   TclObject* create(int, const char*const*)
+   {
+         return (new Mac802_16());
+   }
+} class_mac802_16;
+
+一个声明为static的类，在NS2初始化的时候会调用该类的构造函数，在此NS2调用了Mac802_16Class：Mac802_16Class()，这首先调用了TclClass("Mac/802_16")。我们接着翻看tclcl-1.17/Tcl.cc看TclClass()是如何工作的。
+在Tcl.cc文件中:
+TclClass::TclClass(const char* classname) : class_(0), classname_(classname)
+{
+   if (Tcl::instance().interp()!=NULL) {
+         //如果Otcl语言解释器已存在的话，调用bind():
+         // this can happen only (?) if the class is created as part of a dynamic library
+
+         bind();
+   } else {
+         // the interpreter doesn't yet exist
+         // add this class to a linked list that is traversed when
+         // the interpreter is created
+        
+         next_ = all_;
+         all_ = this;
+   }
+}
+
+往下找到bind()：
+void TclClass::bind()
+{
+   //获取Tcl
+   Tcl& tcl = Tcl::instance();
+   //在Otcl环境中注册该类名:Mac802_16，其父类是SpliteObject
+         //需要注意的是:SpliteObject存在于otcl环境中,与C++中的TclObject相对应
+   tcl.evalf("SplitObject register %s", classname_);
+   //注册了之后,为这个类添加两个命令:create-shadow和delete-shadow，注意：这两个命令的执行程序实际上就是TclClass类的create_shadow()和TclClass::delete_shadow().
+   class_ = OTclGetClass(tcl.interp(), (char*)classname_);
+   OTclAddIMethod(class_, "create-shadow",
+               (Tcl_CmdProc *) create_shadow, (ClientData)this, 0);
+   OTclAddIMethod(class_, "delete-shadow",
+               (Tcl_CmdProc *) delete_shadow, (ClientData)this, 0);
+   otcl_mappings();
+}
+然后当我们在ns脚本中:new Mac802_16时，在tclcl-1.17/tcl-object.tcl中：
+
+proc new { className args } {
+    set o [SplitObject getid]
+          //调用了该类的create函数，即Mac802_16:create()函数，也就是调用了其父类SpliteObject:create()函数
+         if [catch "$className create $o $args" msg] {
+            if [string match "__FAILED_SHADOW_OBJECT_" $msg] {
+               # The shadow object failed to be allocated.
+               delete $o
+               return ""
+          }
+            global errorInfo
+            error "class $className: constructor failed: $msg" $errorInfo
+    }
+    return $o
+}
+
+但是问题出现了：实际上SpliteObject并没有实现create()函数！如何解决呢？我们往上找找看SpliteObject类是如何声明的：Class SpliteObject，原来这实际上是调用了Class的Create函数：
+
+Class instproc create() {
+..
+alloc();
+init();
+...
+}
+
+这就会调用SpliteObject instproc init()函数
+SplitObject instproc init args {
+    $self next
+          //调用类的create-shadow函数，在这个例子中,就是调用了Mac802_16 instproc create_shadow函数
+          //如前面所讲，也就是调用了TclClass::create-shadow()函数
+    if [catch "$self create-shadow $args"] {
+         error "__FAILED_SHADOW_OBJECT_" ""
+    }
+}
+
+我们继续翻看TclClass的create_shadow()函数，看它做了些什么：
+int TclClass::create_shadow(ClientData clientData, Tcl_Interp *interp, int argc, char *argv[])
+
+{
+    TclClass* p = (TclClass*)clientData;
+          //在这里调用了Mac802_16Class::create()函数，也就是调用了C++环境中的:new Mac802_16，到这里为止,otcl中的Mac802_16类对应的shadow object（影象对象）就生成了
+    TclObject* o = p->create(argc, argv);
+    Tcl& tcl = Tcl::instance();
+    if (o != 0) {
+         o->name(argv[0]);
+         tcl.enter(o);
+         if (o->init(argc - 2, argv + 2) == TCL_ERROR) {
+             tcl.remove(o);
+             delete o;
+             return (TCL_ERROR);
+         }
+         tcl.result(o->name());
+      //在这里再次为otcl中的类Mac802_16添加两个命令：cmd和instvar，其中cmd命令是meet the Tcl Unknown mechanism——Tcl的unknown机制，这样一来,当你在ns脚本中输入了一个该类未知的命令，Tcl的unknown机制就会调用该类的cmd命令，具体的过程可以翻看NS手册的相应部分，有比较详细的说明；
+
+    //而cmd（）命令激活影像对象的command()方法，并将cmd()的参数以向量的形式传递给command()方法，因此在实现某类的C++部 分时,你必须实现该类的Command()过程，仔细看看NS2中的大部分类，是不是都有一个Command()函数？其实就是这么来的
+         OTclAddPMethod(OTclGetObject(interp, argv[0]), "cmd",
+                   dispatch_cmd, (ClientData)o, 0);
+         OTclAddPMethod(OTclGetObject(interp, argv[0]), "instvar",
+                   dispatch_instvar, (ClientData)o, 0);
+         o->delay_bind_init_all();
+         return (TCL_OK);
+    } else {
+         tcl.resultf("new failed while creating object of class %s",
+                p->classname_);
+         return (TCL_ERROR);
+    }
+}
+command()这个函数实现所有的命令分发，下面摘抄手册的一部分来说明command()的定义（ASRMAgent::command()为例）：
+-
+int ASRMAgent::command(int argc, const char*const*argv) {
+    Tcl& tcl = Tcl::instance();
+    if (argc == 3) {
+          if (strcmp (argv[1],"distance?") == 0) {
+                int sender = atoi (argv[2]);
+                SRMinfo* sp = get_state(sender);
+                tcl.tesultf("%f", sp->distance_);
+                return TCL_OK;
+          }
+                                             12
+         }
+         return (SRMAgent::command(argc,argv));
+    }
+
+          函数调用时需要两个参数:argc和argv，第一个参数(argc)代表解释器中该行命令说明的参数个数。
+          命令行向量(argv)包括:
+             ——argv[0]为方法的名字,"cmd"。
+            ——argv[1]为所要求的操作。
+             ——如果用户还有其他特殊的参数,                 他们就被放在argv[2...(argc-1)]。
+          参数是以字符串的形式传递的;他们必须被转换成适合的数据形式。
+          如果操作成功匹配,将通过前面(3.3.3)的方法返回操作的结果。
+         command()必须以TCL_OK或TCL_ERROR作为函数的返回代码,来
+          表明成功或者失败。
+          如果操作在这个方法中没有找到匹配的,它将调用其父类的command
+          方法,同时也就返回相应的结果。
+          这就允许用户创建和对象过程或编译方法一样层次特性的操作。
+          当command方法是为多继承的类定义时,程序员可以自由的选择其中
+          一个实现;
+         1)可以调用其中一个的父command方法,然后返回其相应的结构,或
+         2)可以以某种顺序依次调用每一个的父command方法,然后返回第一个
+         调用成功的结果。如果没有调用成功的,将返回错误。
+
+       在我们这个文件里,我们把通过command()执行的操作叫做准成员函数，这个名字反映了这些操作作为一个对象的OTcl实例过程的用途。
+
+
+
+我想讲到这里大概可以明白开篇所说的：“我们写的新协议（假若有的话）是如何被NS2执行的”了，但是，假若你不想弄的太明白，那么你只需要了解以下实事：
+
+如果我们要往NS2中添加自己的模块，那么我们至少要实现两个类：
+
+一，首先要有一个类继承自TclObject类或者其子类，例如这个Mac802_16类的继承关系为：TclObject/NsObject/Mac/Mac802_16.这个类里面实现了C++类里面的变量与Otcl类的变量的绑定关系，以及我们的模块要实现的一系列算法等等，这个类负责的就是协议的实现。
+
+这个类，一般需要有构造函数中执行变量的绑定，使用bind()函数，将Otcl变量与C++的成员变量绑定起来。
+
+声明为protected的command()函数：为Otcl类提供方法，对Otcl中的类的方法进行翻译并执行；对于没有考虑到的或者不能解析的命 令，调用该C++类的父类的command方法。当在Otcl类中调用某个方法时，首先去tcl类中查找并执行该方法；若查找失败，则在该Otcl类对应 的C++类的command方法中查找，若查找仍然失败，则沿着该类的父类一直往上找，尝试调用它们的command方法；若所有父类的command方 法都不能解析，则报告该命令无法执行。
+
+其他的成员变量和成员函数，这是用于实现自己的算法模块的内容。
+
+二，其次我们要定义一个声明为static的类，继承自TclClass类，这个类实现了C++环境里面的类与Otcl环境里面的类的关联，简单点来说，这个类负责与Otcl环境进行关联。取最开头的那段代码;
+static class Mac802_16Class : public TclClass
+{
+public:
+    c802_16Class() : TclClass("Mac/802_16") {}
+       TclObject* create(int, const char*const*)
+       {
+             return (new Mac802_16());
+       }
+} class_mac802_16;
+
+这一段代码里面，包含了一个将Otcl的类名作为参数传给其父类的构造函数；一个create方法：创建一个C++类的对象实例并返回；该方法的返回类定 定义为TclObject*。C++类的类型包含在create方法中，Otcl类的类型包含在TclClass类的构造函数中，因此可以实现C++类和 Otcl类的连接。
+
+接下来，如果我们要实现的类完成以后，将头文件和源文件放置于~ns目录下自己新建的一个子目录，然后打开~ns/Makefile文件，将“类名.o” 添加到该Makefile的OBJ_CC宏定义中，对ns进行编译的时候就能够能够找到该模块的源文件并将其编译到ns中；如果类中定义了一些变量，打开~ns/tcl/lib/ns-default.tcl文件，为该类对应的Otcl类设置一些初始值。最后，对Makefile执行指令：make clean，make，对整个ns重新编译，我们的模块就可以添加到ns2中了。
+
